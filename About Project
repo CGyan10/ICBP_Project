@@ -1,4 +1,5 @@
 Carbon Footprint Optimization in Supply Chain Logistics using Machine Learning
+Dataset Link - https://www.kaggle.com/datasets/priyankaprajapati1/india-logistics-co2emission
 ** Objective
 To reduce carbon emissions in supply chain logistics by predicting CO₂ emissions for delivery routes based on real-time data (route, weather, traffic, fuel usage, and cargo), and suggesting optimized routes using machine learning.
 Key Components
