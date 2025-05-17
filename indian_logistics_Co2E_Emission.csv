@@ -1,0 +1,501 @@
+Trip_ID,Origin_City,Origin_State,Origin_Lat,Origin_Lon,Destination_City,Destination_State,Destination_Lat,Destination_Lon,Distance_km,Road_Type_Highway_%,Road_Type_Urban_%,Road_Type_Rural_%,Time_of_Day,Day_of_Week,Fuel_Consumed,Fuel_Unit,Fuel_Type,Vehicle_Type,Temperature_C,Wind_Speed_kmh,Precipitation_mm,Traffic_Congestion,Cargo_Weight_kg,Cargo_Volume_CBM,Carbon_Emissions_kg_CO2
+1,Coimbatore,Tamil Nadu,11.0168,76.9558,Delhi,Delhi,28.6139,77.209,2436.97,59,24,17,Evening Rush,Monday,308.49,Liters,Diesel,Eicher Pro 2049 (LCV),42.6,22.1,0,High,1175.49,4.17,826.75
+2,Kolkata,West Bengal,22.5726,88.3639,Delhi,Delhi,28.6139,77.209,1817.02,69,21,10,Mid-Day,Friday,198.73,Liters,Diesel,Eicher Pro 2049 (LCV),43.5,16.7,5,Low,1093.35,9.02,532.6
+3,Hyderabad,Telangana,17.385,78.4867,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,436.88,56,21,23,Night,Wednesday,158.95,Liters,Diesel,Tata Signa 2823.K (HCV),35.6,10.2,0,Medium,14250.32,7.34,425.99
+4,Bhopal,Madhya Pradesh,23.2599,77.4126,Indore,Madhya Pradesh,22.7196,75.8577,203.44,73,13,14,Night,Tuesday,38.28,kWh,Electric,Tata Ace EV,32.9,23.0,0,Low,508.61,2.65,0.0
+5,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Bhopal,Madhya Pradesh,23.2599,77.4126,670.0,76,24,0,Night,Sunday,58.14,Liters,Petrol,Tata Ace,31.5,24.8,0,Low,599.04,3.41,134.3
+6,Mumbai,Maharashtra,19.076,72.8777,Jaipur,Rajasthan,26.9124,75.7873,1110.93,77,19,4,Night,Friday,128.94,Liters,Diesel,Eicher Pro 2049 (LCV),38.2,22.9,0,Low,1874.72,9.47,345.56
+7,Kanpur,Uttar Pradesh,26.4499,80.3319,Coimbatore,Tamil Nadu,11.0168,76.9558,1961.38,76,11,13,Evening Rush,Saturday,334.22,Liters,Diesel,Tata 407 (LCV),32.2,10.0,0,Very High,1993.95,7.38,895.71
+8,Patna,Bihar,25.5941,85.1376,Kolkata,West Bengal,22.5726,88.3639,451.8,64,27,9,Afternoon,Saturday,56.22,kWh,Electric,Electric Three-Wheeler (Cargo),30.8,9.7,0,High,122.94,1.18,0.0
+9,Coimbatore,Tamil Nadu,11.0168,76.9558,Mumbai,Maharashtra,19.076,72.8777,1003.68,76,18,6,Night,Sunday,51.57,Kg,CNG,CNG Three-Wheeler (Cargo),31.0,10.9,0,Low,474.1,2.47,105.72
+10,Bangalore,Karnataka,12.9716,77.5946,Ludhiana,Punjab,30.901,75.8573,1721.88,53,17,30,Evening Rush,Sunday,251.04,Liters,Diesel,Eicher Pro 2049 (LCV),43.6,7.7,0,High,3124.15,4.92,672.79
+11,Guwahati,Assam,26.1445,91.7362,Patna,Bihar,25.5941,85.1376,920.23,72,28,0,Night,Sunday,192.25,Liters,Diesel,BharatBenz 1617R (MCV),37.2,5.9,0,Low,4819.01,4.29,515.23
+12,Delhi,Delhi,28.6139,77.209,Thane,Maharashtra,19.2183,72.9781,937.97,58,15,27,Mid-Day,Wednesday,48.42,Kg,CNG,CNG Three-Wheeler (Cargo),40.6,20.2,5,Low,484.22,2.06,99.26
+13,Lucknow,Uttar Pradesh,26.8467,80.9462,Coimbatore,Tamil Nadu,11.0168,76.9558,2406.44,72,25,3,Morning Rush,Thursday,1031.02,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),40.4,18.7,5,Very High,10450.89,7.25,2763.13
+14,Guwahati,Assam,26.1445,91.7362,Kanpur,Uttar Pradesh,26.4499,80.3319,1650.97,70,25,5,Afternoon,Friday,726.38,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),44.6,21.0,0,Very High,12705.65,30.14,1946.7
+15,Delhi,Delhi,28.6139,77.209,Patna,Bihar,25.5941,85.1376,949.15,67,15,18,Early Morning,Thursday,109.96,Liters,Diesel,Eicher Pro 2049 (LCV),42.8,24.2,0,Low,1849.72,5.79,294.69
+16,Jaipur,Rajasthan,26.9124,75.7873,Kanpur,Uttar Pradesh,26.4499,80.3319,415.84,64,15,21,Early Morning,Sunday,169.54,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),42.2,18.8,0,Medium,21581.89,17.59,454.37
+17,Agra,Uttar Pradesh,27.1767,78.0081,Kanpur,Uttar Pradesh,26.4499,80.3319,285.24,64,11,25,Mid-Day,Saturday,43.36,Kg,CNG,Tata 407 (LCV),42.6,13.8,15,High,1026.19,3.8,88.89
+18,Kanpur,Uttar Pradesh,26.4499,80.3319,Patna,Bihar,25.5941,85.1376,688.61,56,12,32,Morning Rush,Sunday,83.15,Liters,Diesel,Mahindra Bolero Pik-up,28.5,9.9,0,Very High,682.11,2.49,222.84
+19,Ludhiana,Punjab,30.901,75.8573,Guwahati,Assam,26.1445,91.7362,1785.92,77,16,7,Evening Rush,Wednesday,206.16,Kg,CNG,Tata Ace,44.3,21.1,15,Very High,582.38,2.19,422.63
+20,Kanpur,Uttar Pradesh,26.4499,80.3319,Bangalore,Karnataka,12.9716,77.5946,1633.03,72,16,12,Evening Rush,Saturday,246.74,Kg,CNG,Tata 407 (LCV),41.6,17.2,0,High,1619.95,7.86,505.82
+21,Coimbatore,Tamil Nadu,11.0168,76.9558,Mumbai,Maharashtra,19.076,72.8777,817.5,72,28,0,Evening Rush,Friday,110.83,Liters,Diesel,Eicher Pro 2049 (LCV),32.0,22.1,5,High,2086.85,6.43,297.02
+22,Nagpur,Maharashtra,21.1458,79.0882,Mumbai,Maharashtra,19.076,72.8777,855.28,58,23,19,Mid-Day,Friday,102.59,Kg,CNG,Tata 407 (LCV),28.8,14.7,5,Low,753.38,4.12,210.31
+23,Nagpur,Maharashtra,21.1458,79.0882,Kolkata,West Bengal,22.5726,88.3639,844.0,62,27,11,Early Morning,Sunday,84.1,Kg,CNG,Ashok Leyland Dost,44.8,15.6,0,Low,1023.11,4.09,172.4
+24,Delhi,Delhi,28.6139,77.209,Pune,Maharashtra,18.5204,73.8567,1059.34,70,13,17,Afternoon,Thursday,96.7,Liters,Diesel,Mahindra Bolero Pik-up,36.1,19.4,5,Low,369.44,3.08,259.16
+25,Indore,Madhya Pradesh,22.7196,75.8577,Lucknow,Uttar Pradesh,26.8467,80.9462,887.67,76,12,12,Early Morning,Saturday,158.29,kWh,Electric,Tata Ace EV,43.5,5.2,10,Low,308.33,2.0,0.0
+26,Nagpur,Maharashtra,21.1458,79.0882,Bangalore,Karnataka,12.9716,77.5946,932.04,77,17,6,Morning Rush,Saturday,101.78,Kg,CNG,Ashok Leyland Dost,30.7,5.6,0,Very High,383.33,1.41,208.65
+27,Nashik,Maharashtra,20.0084,73.7909,Kolkata,West Bengal,22.5726,88.3639,1614.39,62,17,21,Morning Rush,Monday,178.3,Liters,Diesel,Ashok Leyland Dost,30.5,22.6,0,Very High,435.09,2.88,477.84
+28,Kolkata,West Bengal,22.5726,88.3639,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1035.71,84,16,0,Early Morning,Friday,48.72,Kg,CNG,CNG Three-Wheeler (Cargo),39.7,14.6,0,Low,293.24,1.82,99.88
+29,Chennai,Tamil Nadu,13.0827,80.2707,Pune,Maharashtra,18.5204,73.8567,929.72,65,20,15,Early Morning,Friday,208.05,Liters,Diesel,BharatBenz 1617R (MCV),33.9,8.3,5,Low,7295.54,15.42,557.57
+30,Nashik,Maharashtra,20.0084,73.7909,Lucknow,Uttar Pradesh,26.8467,80.9462,1097.44,80,20,0,Night,Saturday,50.17,Kg,CNG,CNG Three-Wheeler (Cargo),44.2,17.2,15,Low,113.59,0.98,102.85
+31,Ahmedabad,Gujarat,23.0225,72.5714,Nashik,Maharashtra,20.0084,73.7909,271.8,56,21,23,Morning Rush,Tuesday,33.0,Kg,CNG,Ashok Leyland Dost,33.1,22.7,0,Very High,892.69,4.58,67.65
+32,Vadodara,Gujarat,22.3072,73.1812,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1355.14,82,18,0,Afternoon,Sunday,205.45,Liters,Diesel,Eicher Pro 2049 (LCV),34.9,5.2,5,Very High,2483.25,5.37,550.61
+33,Nagpur,Maharashtra,21.1458,79.0882,Bhopal,Madhya Pradesh,23.2599,77.4126,225.26,74,22,4,Morning Rush,Friday,27.13,Liters,Diesel,Mahindra Bolero Pik-up,44.6,10.6,5,High,1160.18,1.34,72.71
+34,Delhi,Delhi,28.6139,77.209,Hyderabad,Telangana,17.385,78.4867,1467.2,75,12,13,Afternoon,Monday,199.57,Liters,Diesel,Tata 407 (LCV),38.8,6.8,5,Low,1971.24,3.22,534.85
+35,Lucknow,Uttar Pradesh,26.8467,80.9462,Lucknow,Uttar Pradesh,26.8467,80.9462,20.57,11,84,5,Night,Tuesday,4.9,Liters,Diesel,BharatBenz 1617R (MCV),31.2,12.4,0,Medium,7807.8,10.06,13.13
+36,Guwahati,Assam,26.1445,91.7362,Agra,Uttar Pradesh,27.1767,78.0081,2020.37,66,29,5,Early Morning,Tuesday,100.6,Kg,CNG,CNG Three-Wheeler (Cargo),42.6,22.5,0,Medium,309.15,1.18,206.23
+37,Delhi,Delhi,28.6139,77.209,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1428.39,51,21,28,Early Morning,Monday,127.26,Liters,Diesel,Ashok Leyland Dost,41.5,12.4,5,Low,473.69,2.11,341.06
+38,Thane,Maharashtra,19.2183,72.9781,Nashik,Maharashtra,20.0084,73.7909,149.57,50,19,31,Early Morning,Monday,24.41,kWh,Electric,Tata Ace EV,37.5,21.3,0,Low,175.71,2.51,0.0
+39,Ahmedabad,Gujarat,23.0225,72.5714,Jaipur,Rajasthan,26.9124,75.7873,478.09,66,15,19,Mid-Day,Wednesday,55.02,kWh,Electric,Electric Three-Wheeler (Cargo),40.2,5.3,0,Medium,144.04,1.59,0.0
+40,Kolkata,West Bengal,22.5726,88.3639,Bangalore,Karnataka,12.9716,77.5946,1587.37,73,17,10,Night,Sunday,204.18,Kg,CNG,Tata 407 (LCV),31.4,16.5,10,Medium,676.74,8.71,418.57
+41,Nashik,Maharashtra,20.0084,73.7909,Agra,Uttar Pradesh,27.1767,78.0081,715.05,84,16,0,Evening Rush,Friday,93.69,Liters,Diesel,Eicher Pro 2049 (LCV),42.3,16.0,10,High,1238.3,6.21,251.09
+42,Agra,Uttar Pradesh,27.1767,78.0081,Bhopal,Madhya Pradesh,23.2599,77.4126,440.04,64,10,26,Mid-Day,Thursday,190.62,Liters,Diesel,Tata Signa 2823.K (HCV),35.4,21.0,0,Very High,14258.99,24.19,510.86
+43,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Lucknow,Uttar Pradesh,26.8467,80.9462,416.4,58,26,16,Early Morning,Saturday,38.96,Liters,Diesel,Tata Ace,40.6,22.5,0,Medium,682.61,3.25,104.41
+44,Thane,Maharashtra,19.2183,72.9781,Delhi,Delhi,28.6139,77.209,909.67,52,17,31,Early Morning,Friday,43.45,Kg,CNG,CNG Three-Wheeler (Cargo),39.8,23.9,0,Low,323.74,1.6,89.07
+45,Kolkata,West Bengal,22.5726,88.3639,Guwahati,Assam,26.1445,91.7362,571.43,55,27,18,Mid-Day,Monday,95.71,kWh,Electric,Tata Ace EV,45.0,9.0,0,Medium,126.89,1.12,0.0
+46,Chennai,Tamil Nadu,13.0827,80.2707,Ludhiana,Punjab,30.901,75.8573,2296.76,72,21,7,Mid-Day,Saturday,252.47,Liters,Diesel,Eicher Pro 2049 (LCV),38.2,12.6,5,Low,1157.92,5.75,676.62
+47,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Surat,Gujarat,21.1702,72.8311,909.41,80,20,0,Mid-Day,Thursday,185.23,Liters,Diesel,BharatBenz 1617R (MCV),43.5,12.6,0,Medium,2329.85,6.29,496.42
+48,Pune,Maharashtra,18.5204,73.8567,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1059.38,64,29,7,Morning Rush,Tuesday,264.59,Liters,Diesel,BharatBenz 1617R (MCV),42.1,16.3,0,Very High,3301.05,7.11,709.1
+49,Jaipur,Rajasthan,26.9124,75.7873,Bhopal,Madhya Pradesh,23.2599,77.4126,557.01,55,24,21,Afternoon,Sunday,53.43,Kg,CNG,Tata Ace,38.2,24.0,0,Very High,240.52,2.74,109.53
+50,Hyderabad,Telangana,17.385,78.4867,Nashik,Maharashtra,20.0084,73.7909,656.95,62,21,17,Morning Rush,Thursday,180.47,Liters,Diesel,BharatBenz 1617R (MCV),41.7,24.1,10,Very High,5560.57,12.88,483.66
+51,Patna,Bihar,25.5941,85.1376,Ahmedabad,Gujarat,23.0225,72.5714,1245.93,79,18,3,Afternoon,Wednesday,142.17,Liters,Diesel,Eicher Pro 2049 (LCV),35.1,23.4,5,Medium,1011.72,3.77,381.02
+52,Mumbai,Maharashtra,19.076,72.8777,Vadodara,Gujarat,22.3072,73.1812,338.53,84,16,0,Mid-Day,Saturday,151.1,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),29.8,20.9,5,Very High,13948.85,12.96,404.95
+53,Ludhiana,Punjab,30.901,75.8573,Patna,Bihar,25.5941,85.1376,994.6,69,20,11,Night,Wednesday,141.69,Kg,CNG,Tata 407 (LCV),40.5,7.1,0,Low,2458.89,6.71,290.46
+54,Coimbatore,Tamil Nadu,11.0168,76.9558,Agra,Uttar Pradesh,27.1767,78.0081,1740.0,65,24,11,Mid-Day,Monday,208.21,Liters,Diesel,Tata 407 (LCV),29.3,9.8,5,Low,731.9,3.67,558.0
+55,Kolkata,West Bengal,22.5726,88.3639,Coimbatore,Tamil Nadu,11.0168,76.9558,1411.01,53,13,34,Morning Rush,Monday,122.11,Liters,Diesel,Tata Ace,43.8,14.3,0,High,187.57,1.6,327.25
+56,Hyderabad,Telangana,17.385,78.4867,Coimbatore,Tamil Nadu,11.0168,76.9558,831.0,54,28,18,Night,Saturday,116.42,Kg,CNG,Tata 407 (LCV),36.1,6.1,10,Medium,1480.41,2.95,238.66
+57,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Surat,Gujarat,21.1702,72.8311,1251.39,72,28,0,Early Morning,Wednesday,315.47,Liters,Diesel,BharatBenz 1617R (MCV),37.4,17.3,10,Medium,8850.14,14.83,845.46
+58,Hyderabad,Telangana,17.385,78.4867,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,591.75,79,20,1,Mid-Day,Friday,216.56,Liters,Diesel,Tata Signa 2823.K (HCV),44.3,16.9,15,Medium,9801.04,7.36,580.38
+59,Chennai,Tamil Nadu,13.0827,80.2707,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,681.72,71,14,15,Evening Rush,Monday,266.06,Liters,Diesel,Tata Signa 2823.K (HCV),38.9,8.9,5,Very High,6905.8,15.98,713.04
+60,Ludhiana,Punjab,30.901,75.8573,Guwahati,Assam,26.1445,91.7362,2027.1,55,15,30,Night,Thursday,384.24,kWh,Electric,Tata Ace EV,28.6,7.7,10,Low,453.73,2.5,0.0
+61,Nashik,Maharashtra,20.0084,73.7909,Indore,Madhya Pradesh,22.7196,75.8577,495.47,57,14,29,Evening Rush,Tuesday,69.14,Liters,Diesel,Eicher Pro 2049 (LCV),41.6,14.9,10,High,2077.93,7.59,185.3
+62,Surat,Gujarat,21.1702,72.8311,Indore,Madhya Pradesh,22.7196,75.8577,370.4,75,10,15,Evening Rush,Wednesday,38.53,Kg,CNG,Ashok Leyland Dost,44.5,20.8,0,Medium,992.88,1.83,78.99
+63,Bhopal,Madhya Pradesh,23.2599,77.4126,Ghaziabad,Uttar Pradesh,28.6692,77.4538,606.05,72,28,0,Afternoon,Saturday,86.39,Liters,Diesel,Tata 407 (LCV),40.6,10.9,0,Low,2465.1,8.8,231.53
+64,Coimbatore,Tamil Nadu,11.0168,76.9558,Vadodara,Gujarat,22.3072,73.1812,966.35,54,11,35,Early Morning,Sunday,111.93,Liters,Diesel,Mahindra Bolero Pik-up,34.6,19.2,0,Medium,1488.75,4.97,299.97
+65,Kanpur,Uttar Pradesh,26.4499,80.3319,Indore,Madhya Pradesh,22.7196,75.8577,824.63,71,24,5,Mid-Day,Tuesday,86.16,Liters,Diesel,Ashok Leyland Dost,38.6,18.3,10,High,427.47,1.41,230.91
+66,Indore,Madhya Pradesh,22.7196,75.8577,Chennai,Tamil Nadu,13.0827,80.2707,1172.8,68,20,12,Afternoon,Thursday,234.43,Liters,Diesel,BharatBenz 1617R (MCV),37.3,8.7,10,Low,2344.17,17.9,628.27
+67,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Agra,Uttar Pradesh,27.1767,78.0081,235.56,61,17,22,Afternoon,Thursday,86.98,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),32.4,18.7,0,Medium,12629.41,12.43,233.11
+68,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Delhi,Delhi,28.6139,77.209,74.99,82,18,0,Night,Tuesday,6.43,Liters,Diesel,Tata Ace,38.0,8.4,0,Medium,416.57,1.91,17.23
+69,Surat,Gujarat,21.1702,72.8311,Ghaziabad,Uttar Pradesh,28.6692,77.4538,957.97,56,29,15,Evening Rush,Sunday,427.61,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),31.0,20.9,0,Very High,13956.14,11.24,1145.99
+70,Bhopal,Madhya Pradesh,23.2599,77.4126,Kolkata,West Bengal,22.5726,88.3639,1337.18,81,19,0,Morning Rush,Saturday,622.22,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),32.7,20.8,0,Very High,17662.56,27.86,1667.55
+71,Agra,Uttar Pradesh,27.1767,78.0081,Nashik,Maharashtra,20.0084,73.7909,1147.97,67,19,14,Early Morning,Thursday,105.0,Liters,Diesel,Mahindra Bolero Pik-up,43.7,22.0,0,Low,380.14,2.39,281.4
+72,Vadodara,Gujarat,22.3072,73.1812,Bangalore,Karnataka,12.9716,77.5946,860.37,80,12,8,Afternoon,Monday,213.53,Liters,Diesel,BharatBenz 1617R (MCV),31.3,13.2,15,Low,8657.3,19.74,572.26
+73,Nagpur,Maharashtra,21.1458,79.0882,Agra,Uttar Pradesh,27.1767,78.0081,599.69,78,22,0,Mid-Day,Thursday,93.65,Kg,CNG,Tata 407 (LCV),40.5,8.1,5,Very High,1131.24,7.05,191.98
+74,Coimbatore,Tamil Nadu,11.0168,76.9558,Ahmedabad,Gujarat,23.0225,72.5714,1577.84,61,25,14,Morning Rush,Saturday,631.88,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),40.1,12.3,0,High,11791.54,29.08,1693.44
+75,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Indore,Madhya Pradesh,22.7196,75.8577,923.28,78,22,0,Evening Rush,Thursday,52.4,Kg,CNG,CNG Three-Wheeler (Cargo),38.2,6.4,0,High,389.52,2.46,107.42
+76,Surat,Gujarat,21.1702,72.8311,Thane,Maharashtra,19.2183,72.9781,224.47,50,28,22,Morning Rush,Friday,23.61,Liters,Diesel,Ashok Leyland Dost,31.0,10.3,5,Medium,1051.36,1.8,63.27
+77,Lucknow,Uttar Pradesh,26.8467,80.9462,Patna,Bihar,25.5941,85.1376,574.41,77,17,6,Early Morning,Thursday,30.38,Kg,CNG,CNG Three-Wheeler (Cargo),39.6,23.2,0,Medium,432.34,1.42,62.28
+78,Thane,Maharashtra,19.2183,72.9781,Nashik,Maharashtra,20.0084,73.7909,153.98,70,29,1,Mid-Day,Sunday,20.12,kWh,Electric,Electric Three-Wheeler (Cargo),28.0,8.6,5,High,203.93,0.56,0.0
+79,Hyderabad,Telangana,17.385,78.4867,Kanpur,Uttar Pradesh,26.4499,80.3319,1115.67,63,13,24,Afternoon,Saturday,431.13,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),41.8,12.6,0,High,8807.05,28.3,1155.43
+80,Surat,Gujarat,21.1702,72.8311,Mumbai,Maharashtra,19.076,72.8777,194.42,80,10,10,Morning Rush,Sunday,26.47,Liters,Diesel,Tata 407 (LCV),38.3,19.9,5,High,636.56,6.73,70.94
+81,Hyderabad,Telangana,17.385,78.4867,Indore,Madhya Pradesh,22.7196,75.8577,872.66,74,21,5,Early Morning,Monday,68.67,Liters,Petrol,Tata Ace,42.8,13.5,0,Medium,176.68,2.72,158.63
+82,Kanpur,Uttar Pradesh,26.4499,80.3319,Jaipur,Rajasthan,26.9124,75.7873,580.55,57,18,25,Morning Rush,Thursday,259.2,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),34.8,18.4,0,High,21570.25,12.68,694.66
+83,Kolkata,West Bengal,22.5726,88.3639,Indore,Madhya Pradesh,22.7196,75.8577,1486.19,74,26,0,Night,Sunday,196.54,Kg,CNG,Tata 407 (LCV),39.5,13.5,5,Medium,1208.03,8.09,402.91
+84,Ludhiana,Punjab,30.901,75.8573,Bhopal,Madhya Pradesh,23.2599,77.4126,836.83,72,23,5,Mid-Day,Friday,99.64,Kg,CNG,Ashok Leyland Dost,43.4,20.3,5,Very High,794.57,1.9,204.26
+85,Guwahati,Assam,26.1445,91.7362,Nagpur,Maharashtra,21.1458,79.0882,1971.68,71,22,7,Night,Friday,668.21,Liters,Diesel,Tata Signa 2823.K (HCV),31.8,13.3,0,Medium,9163.67,13.36,1790.8
+86,Nagpur,Maharashtra,21.1458,79.0882,Lucknow,Uttar Pradesh,26.8467,80.9462,523.63,78,22,0,Afternoon,Thursday,85.05,kWh,Electric,Electric Three-Wheeler (Cargo),28.9,11.5,0,Very High,449.01,2.13,0.0
+87,Nashik,Maharashtra,20.0084,73.7909,Hyderabad,Telangana,17.385,78.4867,687.3,78,12,10,Morning Rush,Thursday,289.86,Liters,Diesel,Tata Signa 2823.K (HCV),44.1,20.6,15,High,13443.7,22.1,776.82
+88,Hyderabad,Telangana,17.385,78.4867,Thane,Maharashtra,19.2183,72.9781,762.47,66,18,16,Evening Rush,Thursday,89.49,Liters,Diesel,Mahindra Bolero Pik-up,38.5,13.1,0,Very High,522.96,3.14,239.83
+89,Surat,Gujarat,21.1702,72.8311,Lucknow,Uttar Pradesh,26.8467,80.9462,870.45,69,11,20,Evening Rush,Friday,119.69,Liters,Diesel,Mahindra Bolero Pik-up,42.9,23.1,0,Very High,1470.97,5.11,320.77
+90,Thane,Maharashtra,19.2183,72.9781,Ludhiana,Punjab,30.901,75.8573,1101.15,67,10,23,Evening Rush,Monday,159.12,kWh,Electric,Electric Three-Wheeler (Cargo),37.3,14.5,0,High,384.82,1.71,0.0
+91,Thane,Maharashtra,19.2183,72.9781,Vadodara,Gujarat,22.3072,73.1812,258.13,52,16,32,Night,Tuesday,94.64,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),42.3,21.0,5,Low,16285.21,31.72,253.64
+92,Agra,Uttar Pradesh,27.1767,78.0081,Hyderabad,Telangana,17.385,78.4867,994.33,50,14,36,Mid-Day,Wednesday,124.32,Kg,CNG,Tata 407 (LCV),37.4,7.6,0,Medium,687.42,5.35,254.86
+93,Kanpur,Uttar Pradesh,26.4499,80.3319,Nashik,Maharashtra,20.0084,73.7909,1256.82,58,24,18,Night,Wednesday,407.23,Liters,Diesel,Tata Signa 2823.K (HCV),38.1,17.7,0,Low,9432.29,21.73,1091.38
+94,Agra,Uttar Pradesh,27.1767,78.0081,Mumbai,Maharashtra,19.076,72.8777,1340.15,81,10,9,Afternoon,Thursday,303.67,kWh,Electric,Tata Ace EV,33.7,10.6,10,High,550.69,0.96,0.0
+95,Mumbai,Maharashtra,19.076,72.8777,Hyderabad,Telangana,17.385,78.4867,696.76,50,19,31,Afternoon,Tuesday,63.73,Liters,Diesel,Ashok Leyland Dost,41.7,18.3,0,Medium,370.51,4.91,170.8
+96,Lucknow,Uttar Pradesh,26.8467,80.9462,Kanpur,Uttar Pradesh,26.4499,80.3319,68.82,71,18,11,Evening Rush,Sunday,7.04,Kg,CNG,Ashok Leyland Dost,33.8,19.3,0,High,467.03,3.08,14.43
+97,Ludhiana,Punjab,30.901,75.8573,Chennai,Tamil Nadu,13.0827,80.2707,2430.87,74,11,15,Night,Tuesday,877.4,Liters,Diesel,Tata Signa 2823.K (HCV),44.7,20.1,0,Low,17344.87,23.18,2351.43
+98,Jaipur,Rajasthan,26.9124,75.7873,Ahmedabad,Gujarat,23.0225,72.5714,621.18,50,30,20,Afternoon,Monday,88.63,kWh,Electric,Electric Three-Wheeler (Cargo),36.8,7.5,0,High,361.09,1.03,0.0
+99,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Jaipur,Rajasthan,26.9124,75.7873,1188.89,63,10,27,Evening Rush,Wednesday,157.95,Liters,Diesel,Mahindra Bolero Pik-up,43.9,10.3,5,Very High,1252.17,5.09,423.31
+100,Vadodara,Gujarat,22.3072,73.1812,Lucknow,Uttar Pradesh,26.8467,80.9462,1279.42,54,25,21,Morning Rush,Saturday,133.89,Liters,Diesel,Mahindra Bolero Pik-up,44.1,9.9,0,Medium,862.58,4.08,358.83
+101,Vadodara,Gujarat,22.3072,73.1812,Ludhiana,Punjab,30.901,75.8573,829.57,82,18,0,Evening Rush,Tuesday,200.25,Liters,Diesel,BharatBenz 1617R (MCV),29.8,15.3,0,Very High,2185.83,9.57,536.67
+102,Kanpur,Uttar Pradesh,26.4499,80.3319,Hyderabad,Telangana,17.385,78.4867,1111.14,82,14,4,Mid-Day,Friday,171.71,kWh,Electric,Electric Three-Wheeler (Cargo),36.0,8.3,0,Very High,354.41,1.36,0.0
+103,Kolkata,West Bengal,22.5726,88.3639,Indore,Madhya Pradesh,22.7196,75.8577,1729.03,80,14,6,Mid-Day,Wednesday,357.31,kWh,Electric,Tata Ace EV,33.7,22.1,15,Low,575.12,0.8,0.0
+104,Lucknow,Uttar Pradesh,26.8467,80.9462,Ghaziabad,Uttar Pradesh,28.6692,77.4538,407.09,61,14,25,Mid-Day,Saturday,144.61,Liters,Diesel,Tata Signa 2823.K (HCV),36.5,13.0,0,Medium,12496.1,9.08,387.55
+105,Agra,Uttar Pradesh,27.1767,78.0081,Lucknow,Uttar Pradesh,26.8467,80.9462,301.64,52,18,30,Mid-Day,Monday,31.04,Liters,Diesel,Mahindra Bolero Pik-up,34.0,11.8,0,Low,1053.6,2.72,83.19
+106,Nashik,Maharashtra,20.0084,73.7909,Kolkata,West Bengal,22.5726,88.3639,2064.37,71,13,16,Morning Rush,Saturday,214.69,Liters,Diesel,Tata Ace,31.2,10.3,5,Very High,471.36,0.87,575.37
+107,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Agra,Uttar Pradesh,27.1767,78.0081,1008.95,74,17,9,Evening Rush,Wednesday,117.66,Liters,Diesel,Mahindra Bolero Pik-up,30.3,19.1,5,Very High,487.78,5.6,315.33
+108,Kolkata,West Bengal,22.5726,88.3639,Ahmedabad,Gujarat,23.0225,72.5714,2012.52,60,15,25,Afternoon,Thursday,704.9,Liters,Diesel,Tata Signa 2823.K (HCV),33.4,21.3,5,High,5265.36,12.1,1889.13
+109,Indore,Madhya Pradesh,22.7196,75.8577,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,787.93,72,16,12,Morning Rush,Thursday,93.49,Kg,CNG,Ashok Leyland Dost,41.5,16.4,0,Very High,777.14,1.69,191.65
+110,Patna,Bihar,25.5941,85.1376,Hyderabad,Telangana,17.385,78.4867,1104.37,76,23,1,Morning Rush,Saturday,57.52,Kg,CNG,CNG Three-Wheeler (Cargo),41.0,12.4,5,High,220.4,1.14,117.92
+111,Bhopal,Madhya Pradesh,23.2599,77.4126,Agra,Uttar Pradesh,27.1767,78.0081,498.99,85,10,5,Early Morning,Thursday,54.48,Liters,Diesel,Mahindra Bolero Pik-up,36.7,19.8,0,Low,1422.15,5.86,146.01
+112,Hyderabad,Telangana,17.385,78.4867,Kolkata,West Bengal,22.5726,88.3639,982.58,69,25,6,Night,Monday,190.32,kWh,Electric,Tata Ace EV,32.2,20.2,0,Low,582.64,2.0,0.0
+113,Bhopal,Madhya Pradesh,23.2599,77.4126,Patna,Bihar,25.5941,85.1376,762.16,59,30,11,Mid-Day,Tuesday,41.9,Kg,CNG,CNG Three-Wheeler (Cargo),33.0,8.2,0,Very High,165.89,1.33,85.9
+114,Ahmedabad,Gujarat,23.0225,72.5714,Mumbai,Maharashtra,19.076,72.8777,485.48,60,23,17,Afternoon,Wednesday,25.54,Kg,CNG,CNG Three-Wheeler (Cargo),40.2,18.9,0,High,239.61,1.91,52.36
+115,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Guwahati,Assam,26.1445,91.7362,1195.51,68,28,4,Morning Rush,Sunday,383.91,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),41.1,19.9,0,Low,5163.66,27.07,1028.88
+116,Nashik,Maharashtra,20.0084,73.7909,Jaipur,Rajasthan,26.9124,75.7873,980.87,84,16,0,Evening Rush,Saturday,103.48,Liters,Diesel,Ashok Leyland Dost,42.2,18.0,0,High,611.5,1.41,277.33
+117,Pune,Maharashtra,18.5204,73.8567,Kanpur,Uttar Pradesh,26.4499,80.3319,899.48,73,26,1,Night,Monday,108.06,kWh,Electric,Electric Three-Wheeler (Cargo),42.1,8.9,5,Medium,216.3,1.3,0.0
+118,Hyderabad,Telangana,17.385,78.4867,Agra,Uttar Pradesh,27.1767,78.0081,1214.52,59,12,29,Mid-Day,Monday,56.44,Kg,CNG,CNG Three-Wheeler (Cargo),33.5,13.4,0,Low,269.67,0.73,115.7
+119,Agra,Uttar Pradesh,27.1767,78.0081,Surat,Gujarat,21.1702,72.8311,666.51,74,14,12,Afternoon,Tuesday,83.84,kWh,Electric,Electric Three-Wheeler (Cargo),31.3,15.5,0,High,140.71,1.79,0.0
+120,Vadodara,Gujarat,22.3072,73.1812,Patna,Bihar,25.5941,85.1376,1024.49,55,19,26,Evening Rush,Monday,115.05,kWh,Electric,Electric Three-Wheeler (Cargo),44.0,16.4,0,Low,184.45,2.09,0.0
+121,Surat,Gujarat,21.1702,72.8311,Kanpur,Uttar Pradesh,26.4499,80.3319,774.13,67,30,3,Night,Thursday,107.95,Liters,Diesel,Tata 407 (LCV),33.1,23.2,5,Medium,1727.82,8.68,289.31
+122,Mumbai,Maharashtra,19.076,72.8777,Nashik,Maharashtra,20.0084,73.7909,192.31,73,23,4,Morning Rush,Wednesday,29.32,Liters,Diesel,Eicher Pro 2049 (LCV),34.7,20.4,5,Very High,2560.78,9.68,78.58
+123,Ahmedabad,Gujarat,23.0225,72.5714,Surat,Gujarat,21.1702,72.8311,199.4,83,17,0,Morning Rush,Saturday,43.91,Liters,Diesel,BharatBenz 1617R (MCV),31.7,20.7,5,Medium,4952.79,9.38,117.68
+124,Mumbai,Maharashtra,19.076,72.8777,Pune,Maharashtra,18.5204,73.8567,123.2,81,19,0,Night,Monday,15.6,Liters,Diesel,Tata 407 (LCV),42.3,21.2,15,Low,632.96,4.08,41.81
+125,Pune,Maharashtra,18.5204,73.8567,Patna,Bihar,25.5941,85.1376,1226.25,78,19,3,Early Morning,Wednesday,134.17,kWh,Electric,Electric Three-Wheeler (Cargo),40.5,10.0,5,Low,141.18,1.84,0.0
+126,Vadodara,Gujarat,22.3072,73.1812,Agra,Uttar Pradesh,27.1767,78.0081,598.17,64,22,14,Morning Rush,Thursday,238.0,Liters,Diesel,Tata Signa 2823.K (HCV),28.4,10.9,0,High,14139.47,25.27,637.84
+127,Ludhiana,Punjab,30.901,75.8573,Indore,Madhya Pradesh,22.7196,75.8577,839.0,75,16,9,Morning Rush,Tuesday,346.56,Liters,Diesel,Tata Signa 2823.K (HCV),35.6,16.8,0,High,16969.03,19.39,928.78
+128,Ahmedabad,Gujarat,23.0225,72.5714,Hyderabad,Telangana,17.385,78.4867,949.6,66,30,4,Evening Rush,Tuesday,137.42,kWh,Electric,Electric Three-Wheeler (Cargo),33.1,17.9,15,High,264.03,0.48,0.0
+129,Indore,Madhya Pradesh,22.7196,75.8577,Agra,Uttar Pradesh,27.1767,78.0081,562.27,74,24,2,Morning Rush,Monday,80.02,Liters,Diesel,Eicher Pro 2049 (LCV),35.4,10.9,0,High,2770.6,6.53,214.45
+130,Vadodara,Gujarat,22.3072,73.1812,Guwahati,Assam,26.1445,91.7362,1748.35,63,14,23,Early Morning,Thursday,166.5,Liters,Diesel,Ashok Leyland Dost,29.5,20.4,0,Low,793.48,2.49,446.22
+131,Vadodara,Gujarat,22.3072,73.1812,Guwahati,Assam,26.1445,91.7362,1957.95,77,19,4,Evening Rush,Monday,268.75,Liters,Diesel,Eicher Pro 2049 (LCV),41.4,10.8,0,High,2258.29,5.98,720.25
+132,Chennai,Tamil Nadu,13.0827,80.2707,Patna,Bihar,25.5941,85.1376,1806.89,51,13,36,Early Morning,Friday,186.81,Liters,Diesel,Ashok Leyland Dost,38.1,20.2,10,Low,1061.19,3.03,500.65
+133,Indore,Madhya Pradesh,22.7196,75.8577,Agra,Uttar Pradesh,27.1767,78.0081,436.32,65,21,14,Early Morning,Friday,44.09,Liters,Diesel,Mahindra Bolero Pik-up,32.4,13.1,10,Low,771.4,1.46,118.16
+134,Lucknow,Uttar Pradesh,26.8467,80.9462,Ahmedabad,Gujarat,23.0225,72.5714,777.63,56,23,21,Morning Rush,Wednesday,114.46,kWh,Electric,Electric Three-Wheeler (Cargo),33.9,22.7,0,High,419.83,2.05,0.0
+135,Delhi,Delhi,28.6139,77.209,Thane,Maharashtra,19.2183,72.9781,1215.21,62,17,21,Early Morning,Saturday,111.66,Liters,Diesel,Ashok Leyland Dost,35.5,23.9,5,Medium,391.1,1.06,299.25
+136,Guwahati,Assam,26.1445,91.7362,Hyderabad,Telangana,17.385,78.4867,1455.58,61,30,9,Evening Rush,Saturday,377.89,Liters,Diesel,BharatBenz 1617R (MCV),33.4,13.5,5,Very High,4615.59,13.41,1012.75
+137,Guwahati,Assam,26.1445,91.7362,Hyderabad,Telangana,17.385,78.4867,2187.49,50,14,36,Evening Rush,Saturday,420.68,kWh,Electric,Tata Ace EV,29.1,22.9,10,High,164.74,1.74,0.0
+138,Jaipur,Rajasthan,26.9124,75.7873,Kolkata,West Bengal,22.5726,88.3639,1307.42,81,19,0,Early Morning,Friday,168.59,Liters,Diesel,Eicher Pro 2049 (LCV),40.8,22.7,5,Medium,2660.75,9.41,451.82
+139,Ahmedabad,Gujarat,23.0225,72.5714,Ludhiana,Punjab,30.901,75.8573,740.9,80,20,0,Morning Rush,Monday,31.86,Kg,CNG,CNG Three-Wheeler (Cargo),42.6,20.2,0,Low,124.84,2.28,65.31
+140,Chennai,Tamil Nadu,13.0827,80.2707,Agra,Uttar Pradesh,27.1767,78.0081,1976.24,76,24,0,Morning Rush,Saturday,522.54,Liters,Diesel,BharatBenz 1617R (MCV),28.9,7.5,5,Very High,5254.81,8.01,1400.41
+141,Guwahati,Assam,26.1445,91.7362,Jaipur,Rajasthan,26.9124,75.7873,1765.1,74,15,11,Mid-Day,Monday,660.07,Liters,Diesel,Tata Signa 2823.K (HCV),42.3,19.2,5,High,9681.77,11.24,1768.99
+142,Jaipur,Rajasthan,26.9124,75.7873,Agra,Uttar Pradesh,27.1767,78.0081,304.46,52,10,38,Early Morning,Monday,113.11,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),38.1,13.4,15,Low,11536.36,20.71,303.13
+143,Nagpur,Maharashtra,21.1458,79.0882,Pune,Maharashtra,18.5204,73.8567,677.11,76,11,13,Afternoon,Tuesday,71.67,Liters,Diesel,Mahindra Bolero Pik-up,33.2,15.1,0,Medium,930.15,1.7,192.08
+144,Delhi,Delhi,28.6139,77.209,Nashik,Maharashtra,20.0084,73.7909,1342.0,62,27,11,Early Morning,Tuesday,515.16,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),30.8,20.6,0,Low,20502.9,15.99,1380.63
+145,Hyderabad,Telangana,17.385,78.4867,Delhi,Delhi,28.6139,77.209,1409.75,57,16,27,Morning Rush,Monday,223.69,Kg,CNG,Tata 407 (LCV),28.9,20.4,0,Very High,1283.07,4.13,458.56
+146,Patna,Bihar,25.5941,85.1376,Pune,Maharashtra,18.5204,73.8567,1502.74,66,27,7,Morning Rush,Thursday,167.51,Kg,CNG,Ashok Leyland Dost,34.3,10.5,0,Very High,477.98,2.97,343.4
+147,Indore,Madhya Pradesh,22.7196,75.8577,Nagpur,Maharashtra,21.1458,79.0882,505.8,59,30,11,Morning Rush,Tuesday,126.33,kWh,Electric,Tata Ace EV,29.2,23.4,10,Very High,586.44,2.85,0.0
+148,Ahmedabad,Gujarat,23.0225,72.5714,Patna,Bihar,25.5941,85.1376,1263.82,67,12,21,Afternoon,Sunday,342.71,Liters,Diesel,BharatBenz 1617R (MCV),36.7,9.5,5,Very High,6156.49,5.7,918.46
+149,Chennai,Tamil Nadu,13.0827,80.2707,Pune,Maharashtra,18.5204,73.8567,1051.7,62,13,25,Mid-Day,Tuesday,51.21,Kg,CNG,CNG Three-Wheeler (Cargo),33.2,5.7,10,Low,303.04,0.59,104.98
+150,Bangalore,Karnataka,12.9716,77.5946,Nashik,Maharashtra,20.0084,73.7909,655.39,61,26,13,Night,Tuesday,252.46,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),41.6,5.8,0,Medium,16342.52,10.77,676.59
+151,Agra,Uttar Pradesh,27.1767,78.0081,Jaipur,Rajasthan,26.9124,75.7873,295.76,75,13,12,Morning Rush,Wednesday,118.22,Liters,Diesel,Tata Signa 2823.K (HCV),40.0,8.1,10,High,12312.22,22.29,316.83
+152,Chennai,Tamil Nadu,13.0827,80.2707,Surat,Gujarat,21.1702,72.8311,1111.54,71,13,16,Evening Rush,Thursday,251.85,kWh,Electric,Tata Ace EV,30.8,7.3,5,Very High,416.84,0.77,0.0
+153,Nagpur,Maharashtra,21.1458,79.0882,Bangalore,Karnataka,12.9716,77.5946,676.31,82,18,0,Early Morning,Tuesday,248.52,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),37.0,24.5,0,Low,16493.09,19.79,666.03
+154,Nashik,Maharashtra,20.0084,73.7909,Chennai,Tamil Nadu,13.0827,80.2707,969.55,83,17,0,Afternoon,Saturday,79.21,Kg,CNG,Tata Ace,41.1,16.4,10,Medium,197.99,2.24,162.38
+155,Ahmedabad,Gujarat,23.0225,72.5714,Nagpur,Maharashtra,21.1458,79.0882,605.21,75,17,8,Night,Saturday,204.46,Liters,Diesel,Tata Signa 2823.K (HCV),40.1,16.8,5,Low,12393.06,16.28,547.95
+156,Delhi,Delhi,28.6139,77.209,Bangalore,Karnataka,12.9716,77.5946,1718.92,81,11,8,Morning Rush,Saturday,660.21,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),28.0,17.9,0,High,8307.57,26.88,1769.36
+157,Coimbatore,Tamil Nadu,11.0168,76.9558,Ludhiana,Punjab,30.901,75.8573,1708.32,57,13,30,Evening Rush,Wednesday,397.84,Liters,Diesel,BharatBenz 1617R (MCV),36.6,17.9,0,High,3751.66,4.65,1066.21
+158,Chennai,Tamil Nadu,13.0827,80.2707,Ghaziabad,Uttar Pradesh,28.6692,77.4538,1576.47,81,12,7,Early Morning,Saturday,228.54,Liters,Diesel,Tata 407 (LCV),29.9,24.7,10,Medium,1821.62,4.37,612.49
+159,Thane,Maharashtra,19.2183,72.9781,Kanpur,Uttar Pradesh,26.4499,80.3319,991.65,73,27,0,Early Morning,Wednesday,100.34,Liters,Diesel,Mahindra Bolero Pik-up,38.7,15.5,0,Medium,668.37,4.05,268.91
+160,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Surat,Gujarat,21.1702,72.8311,1342.43,69,22,9,Evening Rush,Tuesday,511.05,Liters,Diesel,Tata Signa 2823.K (HCV),36.1,9.0,0,High,10935.59,11.57,1369.61
+161,Nagpur,Maharashtra,21.1458,79.0882,Hyderabad,Telangana,17.385,78.4867,340.49,78,22,0,Night,Saturday,122.28,Liters,Diesel,Tata Signa 2823.K (HCV),31.0,21.6,5,Medium,13294.49,26.62,327.71
+162,Ahmedabad,Gujarat,23.0225,72.5714,Agra,Uttar Pradesh,27.1767,78.0081,646.48,83,17,0,Morning Rush,Saturday,37.16,Kg,CNG,CNG Three-Wheeler (Cargo),32.1,19.1,0,High,415.95,1.93,76.18
+163,Chennai,Tamil Nadu,13.0827,80.2707,Nagpur,Maharashtra,21.1458,79.0882,771.86,52,30,18,Afternoon,Tuesday,125.62,kWh,Electric,Tata Ace EV,39.9,15.2,0,Low,170.0,2.47,0.0
+164,Guwahati,Assam,26.1445,91.7362,Bangalore,Karnataka,12.9716,77.5946,2134.6,58,25,17,Mid-Day,Friday,427.58,kWh,Electric,Tata Ace EV,42.9,20.5,10,Low,593.0,1.4,0.0
+165,Lucknow,Uttar Pradesh,26.8467,80.9462,Kolkata,West Bengal,22.5726,88.3639,960.59,78,15,7,Evening Rush,Wednesday,121.77,Kg,CNG,Ashok Leyland Dost,36.1,24.6,0,Very High,1115.13,4.62,249.63
+166,Nashik,Maharashtra,20.0084,73.7909,Kanpur,Uttar Pradesh,26.4499,80.3319,1048.31,74,19,7,Night,Sunday,53.54,Kg,CNG,CNG Three-Wheeler (Cargo),39.2,15.7,0,Medium,359.91,1.56,109.76
+167,Bhopal,Madhya Pradesh,23.2599,77.4126,Chennai,Tamil Nadu,13.0827,80.2707,1240.38,58,11,31,Early Morning,Saturday,146.01,Liters,Diesel,Eicher Pro 2049 (LCV),35.6,9.7,10,Medium,1031.45,5.7,391.31
+168,Nashik,Maharashtra,20.0084,73.7909,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1251.31,82,12,6,Early Morning,Monday,118.33,Liters,Diesel,Tata Ace,39.2,5.3,0,Medium,716.53,1.02,317.12
+169,Nagpur,Maharashtra,21.1458,79.0882,Pune,Maharashtra,18.5204,73.8567,714.3,82,18,0,Evening Rush,Thursday,77.36,Liters,Diesel,Mahindra Bolero Pik-up,41.8,19.3,0,High,539.59,1.89,207.32
+170,Ludhiana,Punjab,30.901,75.8573,Lucknow,Uttar Pradesh,26.8467,80.9462,968.92,74,26,0,Early Morning,Monday,232.48,Liters,Diesel,BharatBenz 1617R (MCV),44.2,12.2,15,Low,7373.13,7.29,623.05
+171,Agra,Uttar Pradesh,27.1767,78.0081,Ghaziabad,Uttar Pradesh,28.6692,77.4538,235.62,62,27,11,Mid-Day,Thursday,84.92,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),28.0,11.6,5,Medium,10568.01,12.27,227.59
+172,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Chennai,Tamil Nadu,13.0827,80.2707,1581.44,66,20,14,Afternoon,Saturday,223.97,kWh,Electric,Electric Three-Wheeler (Cargo),28.8,6.3,0,Very High,199.51,0.72,0.0
+173,Pune,Maharashtra,18.5204,73.8567,Jaipur,Rajasthan,26.9124,75.7873,800.29,71,25,4,Afternoon,Wednesday,46.5,Kg,CNG,CNG Three-Wheeler (Cargo),32.2,6.6,0,High,438.63,1.79,95.32
+174,Vadodara,Gujarat,22.3072,73.1812,Surat,Gujarat,21.1702,72.8311,138.56,62,23,15,Evening Rush,Sunday,52.35,Liters,Diesel,Tata Signa 2823.K (HCV),43.9,22.1,0,Very High,4772.22,16.95,140.3
+175,Patna,Bihar,25.5941,85.1376,Guwahati,Assam,26.1445,91.7362,677.17,67,14,19,Early Morning,Tuesday,91.55,Kg,CNG,Tata 407 (LCV),35.8,23.3,0,Low,1908.39,3.48,187.68
+176,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Nagpur,Maharashtra,21.1458,79.0882,629.12,82,11,7,Early Morning,Friday,52.55,Liters,Petrol,Tata Ace,41.2,16.4,0,Low,483.26,2.25,121.39
+177,Pune,Maharashtra,18.5204,73.8567,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1088.83,79,15,6,Evening Rush,Friday,446.32,Liters,Diesel,Tata Signa 2823.K (HCV),37.0,14.8,15,High,11384.1,7.38,1196.14
+178,Chennai,Tamil Nadu,13.0827,80.2707,Surat,Gujarat,21.1702,72.8311,1142.68,85,15,0,Morning Rush,Friday,158.13,Liters,Diesel,Eicher Pro 2049 (LCV),36.9,21.5,0,Very High,1248.88,7.63,423.79
+179,Coimbatore,Tamil Nadu,11.0168,76.9558,Kolkata,West Bengal,22.5726,88.3639,1905.13,64,10,26,Afternoon,Wednesday,239.64,Liters,Diesel,Eicher Pro 2049 (LCV),31.0,10.7,0,High,1094.5,6.62,642.24
+180,Bangalore,Karnataka,12.9716,77.5946,Jaipur,Rajasthan,26.9124,75.7873,1977.53,53,10,37,Mid-Day,Saturday,243.58,Liters,Diesel,Tata 407 (LCV),34.5,8.0,5,Low,998.21,4.76,652.79
+181,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Bangalore,Karnataka,12.9716,77.5946,1673.05,56,11,33,Afternoon,Thursday,339.76,kWh,Electric,Tata Ace EV,41.4,12.4,0,Medium,578.77,1.45,0.0
+182,Nashik,Maharashtra,20.0084,73.7909,Chennai,Tamil Nadu,13.0827,80.2707,1375.12,74,22,4,Night,Wednesday,124.17,Kg,CNG,Ashok Leyland Dost,30.2,12.9,0,Low,536.26,4.26,254.55
+183,Jaipur,Rajasthan,26.9124,75.7873,Lucknow,Uttar Pradesh,26.8467,80.9462,417.0,79,21,0,Night,Saturday,36.65,Liters,Petrol,Tata Ace,29.2,13.0,5,Medium,489.24,2.68,84.66
+184,Delhi,Delhi,28.6139,77.209,Nagpur,Maharashtra,21.1458,79.0882,959.57,51,26,23,Evening Rush,Wednesday,421.08,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),36.8,7.9,0,Very High,12479.84,25.62,1128.49
+185,Lucknow,Uttar Pradesh,26.8467,80.9462,Coimbatore,Tamil Nadu,11.0168,76.9558,1842.19,81,19,0,Night,Friday,215.9,kWh,Electric,Electric Three-Wheeler (Cargo),34.4,12.4,0,Low,257.96,0.66,0.0
+186,Patna,Bihar,25.5941,85.1376,Nagpur,Maharashtra,21.1458,79.0882,721.05,69,26,5,Evening Rush,Monday,88.72,Liters,Diesel,Ashok Leyland Dost,28.0,5.7,15,High,1041.41,4.59,237.77
+187,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Delhi,Delhi,28.6139,77.209,77.79,61,30,9,Afternoon,Friday,27.79,Liters,Diesel,Tata Signa 2823.K (HCV),33.5,24.3,0,Low,16556.09,12.62,74.48
+188,Ludhiana,Punjab,30.901,75.8573,Ahmedabad,Gujarat,23.0225,72.5714,1150.59,76,18,6,Early Morning,Saturday,113.61,Kg,CNG,Ashok Leyland Dost,35.6,21.0,5,Low,976.09,1.32,232.9
+189,Ahmedabad,Gujarat,23.0225,72.5714,Nagpur,Maharashtra,21.1458,79.0882,636.88,68,10,22,Afternoon,Sunday,81.11,Liters,Diesel,Tata 407 (LCV),43.0,12.6,0,Medium,855.52,5.28,217.37
+190,Lucknow,Uttar Pradesh,26.8467,80.9462,Bhopal,Madhya Pradesh,23.2599,77.4126,621.7,81,19,0,Afternoon,Monday,145.01,Liters,Diesel,BharatBenz 1617R (MCV),44.8,22.6,0,Medium,7024.26,4.2,388.63
+191,Coimbatore,Tamil Nadu,11.0168,76.9558,Indore,Madhya Pradesh,22.7196,75.8577,1382.65,80,14,6,Morning Rush,Sunday,163.23,Liters,Diesel,Ashok Leyland Dost,37.9,10.0,10,High,1024.28,2.41,437.46
+192,Surat,Gujarat,21.1702,72.8311,Mumbai,Maharashtra,19.076,72.8777,229.15,66,21,13,Morning Rush,Wednesday,14.81,Kg,CNG,CNG Three-Wheeler (Cargo),40.1,8.1,0,Very High,488.39,0.85,30.36
+193,Mumbai,Maharashtra,19.076,72.8777,Surat,Gujarat,21.1702,72.8311,258.78,62,16,22,Night,Wednesday,35.48,Kg,CNG,Tata 407 (LCV),32.6,24.0,0,Medium,1559.87,4.39,72.73
+194,Kanpur,Uttar Pradesh,26.4499,80.3319,Bhopal,Madhya Pradesh,23.2599,77.4126,394.08,51,30,19,Night,Monday,46.46,Liters,Diesel,Eicher Pro 2049 (LCV),43.5,18.0,0,Low,2088.0,2.04,124.51
+195,Nashik,Maharashtra,20.0084,73.7909,Delhi,Delhi,28.6139,77.209,1055.96,60,22,18,Afternoon,Wednesday,46.48,Kg,CNG,CNG Three-Wheeler (Cargo),41.8,15.6,5,Low,167.46,1.74,95.28
+196,Bhopal,Madhya Pradesh,23.2599,77.4126,Ahmedabad,Gujarat,23.0225,72.5714,456.81,80,20,0,Night,Sunday,64.55,Liters,Diesel,Tata 407 (LCV),32.7,19.4,0,Low,2371.9,5.02,172.99
+197,Delhi,Delhi,28.6139,77.209,Thane,Maharashtra,19.2183,72.9781,1259.62,60,24,16,Morning Rush,Saturday,470.08,Liters,Diesel,Tata Signa 2823.K (HCV),42.9,8.4,0,Very High,3975.94,6.46,1259.81
+198,Bangalore,Karnataka,12.9716,77.5946,Guwahati,Assam,26.1445,91.7362,2493.47,65,16,19,Early Morning,Thursday,321.0,Liters,Diesel,Eicher Pro 2049 (LCV),41.8,7.6,15,Low,2369.93,9.8,860.28
+199,Kanpur,Uttar Pradesh,26.4499,80.3319,Indore,Madhya Pradesh,22.7196,75.8577,858.39,51,15,34,Morning Rush,Wednesday,101.8,Kg,CNG,Ashok Leyland Dost,33.2,15.8,0,Very High,774.66,3.85,208.69
+200,Hyderabad,Telangana,17.385,78.4867,Thane,Maharashtra,19.2183,72.9781,824.08,51,25,24,Night,Wednesday,71.62,Kg,CNG,Ashok Leyland Dost,36.7,13.6,0,Low,360.11,3.24,146.82
+201,Thane,Maharashtra,19.2183,72.9781,Pune,Maharashtra,18.5204,73.8567,162.66,64,15,21,Afternoon,Sunday,28.83,Kg,CNG,Tata 407 (LCV),41.0,15.8,0,Very High,2408.21,1.9,59.1
+202,Guwahati,Assam,26.1445,91.7362,Vadodara,Gujarat,22.3072,73.1812,1619.32,77,23,0,Night,Thursday,71.54,Kg,CNG,CNG Three-Wheeler (Cargo),36.6,17.6,0,Low,174.19,2.28,146.66
+203,Pune,Maharashtra,18.5204,73.8567,Bangalore,Karnataka,12.9716,77.5946,718.25,60,19,21,Morning Rush,Tuesday,69.47,Kg,CNG,Tata Ace,37.8,23.6,0,High,503.74,2.8,142.41
+204,Indore,Madhya Pradesh,22.7196,75.8577,Ghaziabad,Uttar Pradesh,28.6692,77.4538,616.92,78,11,11,Night,Thursday,61.62,Liters,Diesel,Ashok Leyland Dost,28.4,16.3,0,Low,1035.73,4.92,165.14
+205,Ludhiana,Punjab,30.901,75.8573,Ghaziabad,Uttar Pradesh,28.6692,77.4538,228.17,85,15,0,Evening Rush,Saturday,25.31,Liters,Diesel,Mahindra Bolero Pik-up,35.7,18.6,15,High,303.7,2.18,67.83
+206,Jaipur,Rajasthan,26.9124,75.7873,Indore,Madhya Pradesh,22.7196,75.8577,352.26,77,19,4,Morning Rush,Monday,120.46,Liters,Diesel,Tata Signa 2823.K (HCV),28.2,9.1,0,High,3718.24,16.02,322.83
+207,Delhi,Delhi,28.6139,77.209,Hyderabad,Telangana,17.385,78.4867,1390.16,81,19,0,Mid-Day,Wednesday,79.87,Kg,CNG,CNG Three-Wheeler (Cargo),32.3,16.0,10,High,354.45,2.17,163.73
+208,Delhi,Delhi,28.6139,77.209,Coimbatore,Tamil Nadu,11.0168,76.9558,2270.6,53,16,31,Afternoon,Wednesday,283.09,Liters,Diesel,Eicher Pro 2049 (LCV),39.5,12.2,0,Low,2878.96,6.93,758.68
+209,Pune,Maharashtra,18.5204,73.8567,Nagpur,Maharashtra,21.1458,79.0882,646.64,51,26,23,Evening Rush,Monday,96.15,Kg,CNG,Tata 407 (LCV),42.8,18.1,5,High,1461.99,5.03,197.11
+210,Hyderabad,Telangana,17.385,78.4867,Kolkata,West Bengal,22.5726,88.3639,954.58,57,28,15,Evening Rush,Wednesday,135.09,kWh,Electric,Electric Three-Wheeler (Cargo),42.7,17.5,5,Very High,198.17,0.96,0.0
+211,Ahmedabad,Gujarat,23.0225,72.5714,Bhopal,Madhya Pradesh,23.2599,77.4126,529.06,58,18,24,Early Morning,Thursday,56.21,Liters,Diesel,Mahindra Bolero Pik-up,42.5,7.0,0,Medium,952.07,2.45,150.64
+212,Vadodara,Gujarat,22.3072,73.1812,Hyderabad,Telangana,17.385,78.4867,1041.26,52,14,34,Evening Rush,Wednesday,199.46,kWh,Electric,Tata Ace EV,41.1,7.6,10,High,156.27,1.56,0.0
+213,Hyderabad,Telangana,17.385,78.4867,Ghaziabad,Uttar Pradesh,28.6692,77.4538,1625.58,58,24,18,Afternoon,Thursday,192.69,Liters,Diesel,Mahindra Bolero Pik-up,36.8,17.3,0,High,1063.31,3.83,516.41
+214,Patna,Bihar,25.5941,85.1376,Hyderabad,Telangana,17.385,78.4867,1320.0,84,15,1,Morning Rush,Thursday,573.31,Liters,Diesel,Tata Signa 2823.K (HCV),39.6,12.1,0,Very High,14456.03,21.2,1536.47
+215,Mumbai,Maharashtra,19.076,72.8777,Guwahati,Assam,26.1445,91.7362,2420.67,69,27,4,Mid-Day,Friday,277.99,Liters,Diesel,Ashok Leyland Dost,34.3,24.1,15,Medium,1157.08,1.42,745.01
+216,Surat,Gujarat,21.1702,72.8311,Chennai,Tamil Nadu,13.0827,80.2707,1104.42,80,20,0,Evening Rush,Friday,501.84,Liters,Diesel,Tata Signa 2823.K (HCV),44.8,9.0,0,Very High,17896.42,24.7,1344.93
+217,Mumbai,Maharashtra,19.076,72.8777,Lucknow,Uttar Pradesh,26.8467,80.9462,1292.92,59,19,22,Afternoon,Tuesday,144.95,Liters,Diesel,Eicher Pro 2049 (LCV),31.9,13.0,0,Medium,790.08,8.8,388.47
+218,Pune,Maharashtra,18.5204,73.8567,Indore,Madhya Pradesh,22.7196,75.8577,669.92,78,22,0,Morning Rush,Tuesday,272.16,Liters,Diesel,Tata Signa 2823.K (HCV),42.1,16.3,0,High,15699.13,14.1,729.39
+219,Jaipur,Rajasthan,26.9124,75.7873,Nagpur,Maharashtra,21.1458,79.0882,861.76,76,11,13,Evening Rush,Monday,97.26,Kg,CNG,Ashok Leyland Dost,39.5,18.1,5,High,945.0,1.75,199.38
+220,Coimbatore,Tamil Nadu,11.0168,76.9558,Delhi,Delhi,28.6139,77.209,1884.65,78,17,5,Afternoon,Friday,353.93,kWh,Electric,Tata Ace EV,39.8,13.1,0,Low,503.92,1.07,0.0
+221,Vadodara,Gujarat,22.3072,73.1812,Patna,Bihar,25.5941,85.1376,1207.21,60,29,11,Evening Rush,Saturday,267.01,Liters,Diesel,BharatBenz 1617R (MCV),32.6,6.4,0,High,2054.6,13.9,715.59
+222,Lucknow,Uttar Pradesh,26.8467,80.9462,Kanpur,Uttar Pradesh,26.4499,80.3319,80.64,64,20,16,Afternoon,Monday,10.06,Liters,Diesel,Mahindra Bolero Pik-up,29.3,24.6,15,High,963.34,5.48,26.96
+223,Lucknow,Uttar Pradesh,26.8467,80.9462,Hyderabad,Telangana,17.385,78.4867,1125.19,80,13,7,Early Morning,Monday,433.01,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),30.4,16.5,15,Medium,10397.07,26.29,1160.47
+224,Nashik,Maharashtra,20.0084,73.7909,Hyderabad,Telangana,17.385,78.4867,768.79,50,18,32,Early Morning,Thursday,112.22,Kg,CNG,Tata 407 (LCV),36.6,10.6,0,Medium,2198.82,5.02,230.05
+225,Guwahati,Assam,26.1445,91.7362,Coimbatore,Tamil Nadu,11.0168,76.9558,1911.6407812780155,69,30,1,Evening Rush,Sunday,211.99,Kg,CNG,Ashok Leyland Dost,35.5,11.9,0,Very High,453.94,3.65,434.58
+226,Vadodara,Gujarat,22.3072,73.1812,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1339.92,58,14,28,Mid-Day,Monday,587.8,Liters,Diesel,Tata Signa 2823.K (HCV),39.8,16.4,5,Very High,15203.16,16.04,1575.3
+227,Nashik,Maharashtra,20.0084,73.7909,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1318.3,62,13,25,Night,Thursday,152.87,Liters,Diesel,Eicher Pro 2049 (LCV),39.1,14.7,5,Low,1861.82,2.17,409.69
+228,Guwahati,Assam,26.1445,91.7362,Mumbai,Maharashtra,19.076,72.8777,2300.68,64,17,19,Early Morning,Saturday,246.37,Kg,CNG,Ashok Leyland Dost,38.7,17.6,5,Medium,1145.11,4.29,505.06
+229,Nashik,Maharashtra,20.0084,73.7909,Nagpur,Maharashtra,21.1458,79.0882,645.97,66,18,16,Afternoon,Sunday,111.71,kWh,Electric,Tata Ace EV,36.8,8.5,5,Medium,195.96,1.76,0.0
+230,Bhopal,Madhya Pradesh,23.2599,77.4126,Patna,Bihar,25.5941,85.1376,1162.96,77,12,11,Early Morning,Thursday,101.17,Liters,Petrol,Tata Ace,41.8,7.6,0,Medium,458.94,0.81,233.7
+231,Kanpur,Uttar Pradesh,26.4499,80.3319,Mumbai,Maharashtra,19.076,72.8777,1551.11,74,26,0,Early Morning,Wednesday,174.26,kWh,Electric,Electric Three-Wheeler (Cargo),36.9,24.1,5,Medium,104.9,0.87,0.0
+232,Ludhiana,Punjab,30.901,75.8573,Delhi,Delhi,28.6139,77.209,280.35,70,30,0,Afternoon,Sunday,29.0,Kg,CNG,Ashok Leyland Dost,37.9,14.6,0,High,518.67,1.65,59.45
+233,Coimbatore,Tamil Nadu,11.0168,76.9558,Pune,Maharashtra,18.5204,73.8567,1006.08,74,12,14,Night,Wednesday,191.34,kWh,Electric,Tata Ace EV,32.1,12.4,0,Medium,415.03,2.67,0.0
+234,Nagpur,Maharashtra,21.1458,79.0882,Ghaziabad,Uttar Pradesh,28.6692,77.4538,815.22,76,16,8,Morning Rush,Tuesday,135.06,Liters,Diesel,Tata 407 (LCV),41.7,8.9,0,Very High,1707.17,6.93,361.96
+235,Indore,Madhya Pradesh,22.7196,75.8577,Nashik,Maharashtra,20.0084,73.7909,394.29,66,13,21,Evening Rush,Thursday,49.19,Liters,Diesel,Mahindra Bolero Pik-up,29.6,20.6,0,High,1380.76,2.51,131.83
+236,Jaipur,Rajasthan,26.9124,75.7873,Lucknow,Uttar Pradesh,26.8467,80.9462,525.31,66,25,9,Afternoon,Thursday,48.31,Liters,Diesel,Mahindra Bolero Pik-up,40.0,6.3,0,Low,410.15,2.34,129.47
+237,Vadodara,Gujarat,22.3072,73.1812,Hyderabad,Telangana,17.385,78.4867,872.25,58,28,14,Early Morning,Thursday,79.35,Liters,Diesel,Tata Ace,37.4,6.5,5,Low,748.93,2.91,212.66
+238,Patna,Bihar,25.5941,85.1376,Coimbatore,Tamil Nadu,11.0168,76.9558,1537.0,61,23,16,Evening Rush,Tuesday,339.85,kWh,Electric,Tata Ace EV,43.3,20.2,5,High,563.64,1.96,0.0
+239,Nagpur,Maharashtra,21.1458,79.0882,Nashik,Maharashtra,20.0084,73.7909,532.98,59,13,28,Afternoon,Friday,41.22,Liters,Diesel,Tata Ace,32.9,22.1,0,Low,262.08,2.76,110.47
+240,Lucknow,Uttar Pradesh,26.8467,80.9462,Thane,Maharashtra,19.2183,72.9781,1548.87,68,28,4,Evening Rush,Saturday,207.29,Liters,Diesel,Mahindra Bolero Pik-up,28.8,5.8,0,Very High,1298.11,4.51,555.54
+241,Jaipur,Rajasthan,26.9124,75.7873,Bhopal,Madhya Pradesh,23.2599,77.4126,538.57,75,24,1,Evening Rush,Tuesday,74.91,kWh,Electric,Electric Three-Wheeler (Cargo),30.2,10.8,10,Medium,429.02,1.21,0.0
+242,Pune,Maharashtra,18.5204,73.8567,Vadodara,Gujarat,22.3072,73.1812,445.57,55,21,24,Morning Rush,Monday,21.77,Kg,CNG,CNG Three-Wheeler (Cargo),34.2,19.6,0,High,103.67,2.2,44.63
+243,Jaipur,Rajasthan,26.9124,75.7873,Mumbai,Maharashtra,19.076,72.8777,1044.09,74,26,0,Mid-Day,Thursday,224.35,kWh,Electric,Tata Ace EV,40.5,24.7,0,High,491.27,1.6,0.0
+244,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Nashik,Maharashtra,20.0084,73.7909,940.57,76,16,8,Early Morning,Thursday,93.87,Kg,CNG,Ashok Leyland Dost,43.3,9.9,5,Medium,783.81,1.15,192.43
+245,Hyderabad,Telangana,17.385,78.4867,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,462.86,58,26,16,Afternoon,Friday,49.56,Liters,Diesel,Mahindra Bolero Pik-up,41.0,17.0,0,High,477.28,3.23,132.82
+246,Delhi,Delhi,28.6139,77.209,Kolkata,West Bengal,22.5726,88.3639,1058.39,66,11,23,Afternoon,Thursday,182.68,Kg,CNG,Tata 407 (LCV),29.0,21.6,0,Very High,2127.55,8.63,374.49
+247,Agra,Uttar Pradesh,27.1767,78.0081,Ghaziabad,Uttar Pradesh,28.6692,77.4538,203.67,54,30,16,Evening Rush,Friday,40.63,kWh,Electric,Tata Ace EV,34.0,18.0,0,Very High,127.83,2.72,0.0
+248,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Jaipur,Rajasthan,26.9124,75.7873,1121.87,51,24,25,Evening Rush,Wednesday,133.35,Liters,Diesel,Mahindra Bolero Pik-up,31.1,22.5,0,Very High,593.56,3.88,357.38
+249,Jaipur,Rajasthan,26.9124,75.7873,Ghaziabad,Uttar Pradesh,28.6692,77.4538,238.51,71,26,3,Mid-Day,Friday,54.56,kWh,Electric,Tata Ace EV,34.6,11.6,15,High,478.89,2.73,0.0
+250,Mumbai,Maharashtra,19.076,72.8777,Chennai,Tamil Nadu,13.0827,80.2707,1223.9,55,27,18,Afternoon,Tuesday,236.25,kWh,Electric,Tata Ace EV,42.9,23.4,0,High,238.02,1.09,0.0
+251,Vadodara,Gujarat,22.3072,73.1812,Ludhiana,Punjab,30.901,75.8573,725.55,77,15,8,Evening Rush,Wednesday,131.08,kWh,Electric,Tata Ace EV,38.8,7.4,0,Medium,294.19,1.64,0.0
+252,Jaipur,Rajasthan,26.9124,75.7873,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1178.39,64,27,9,Night,Monday,124.33,Liters,Diesel,Mahindra Bolero Pik-up,37.8,15.6,5,Medium,910.66,3.57,333.2
+253,Coimbatore,Tamil Nadu,11.0168,76.9558,Bangalore,Karnataka,12.9716,77.5946,202.29,84,16,0,Morning Rush,Tuesday,22.74,Liters,Diesel,Ashok Leyland Dost,29.7,11.1,5,Very High,517.37,2.74,60.94
+254,Guwahati,Assam,26.1445,91.7362,Jaipur,Rajasthan,26.9124,75.7873,1852.15,52,12,36,Mid-Day,Thursday,190.65,Kg,CNG,Ashok Leyland Dost,28.5,22.6,15,Medium,605.13,4.86,390.83
+255,Chennai,Tamil Nadu,13.0827,80.2707,Patna,Bihar,25.5941,85.1376,1294.94,55,23,22,Evening Rush,Thursday,209.36,Liters,Diesel,Eicher Pro 2049 (LCV),39.2,11.5,0,Very High,3423.07,7.05,561.08
+256,Agra,Uttar Pradesh,27.1767,78.0081,Nagpur,Maharashtra,21.1458,79.0882,867.01,64,24,12,Early Morning,Monday,38.6,Kg,CNG,CNG Three-Wheeler (Cargo),30.8,7.7,0,Low,188.3,0.94,79.13
+257,Thane,Maharashtra,19.2183,72.9781,Agra,Uttar Pradesh,27.1767,78.0081,956.7,83,16,1,Evening Rush,Friday,71.33,Liters,Petrol,Tata Ace,30.6,11.0,5,Low,162.71,1.31,164.77
+258,Ludhiana,Punjab,30.901,75.8573,Jaipur,Rajasthan,26.9124,75.7873,580.29,83,17,0,Night,Monday,140.12,Liters,Diesel,BharatBenz 1617R (MCV),31.7,16.3,0,Medium,8328.14,6.06,375.52
+259,Coimbatore,Tamil Nadu,11.0168,76.9558,Thane,Maharashtra,19.2183,72.9781,974.89,71,11,18,Morning Rush,Sunday,125.52,Liters,Diesel,Mahindra Bolero Pik-up,38.3,7.6,15,High,1155.06,4.15,336.39
+260,Pune,Maharashtra,18.5204,73.8567,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1328.02,53,17,30,Night,Thursday,64.87,Kg,CNG,CNG Three-Wheeler (Cargo),28.8,18.9,0,Medium,271.61,1.97,132.98
+261,Hyderabad,Telangana,17.385,78.4867,Chennai,Tamil Nadu,13.0827,80.2707,551.67,66,30,4,Afternoon,Wednesday,25.72,Kg,CNG,CNG Three-Wheeler (Cargo),41.9,14.5,0,Medium,183.37,0.62,52.73
+262,Kolkata,West Bengal,22.5726,88.3639,Lucknow,Uttar Pradesh,26.8467,80.9462,730.93,64,12,24,Mid-Day,Monday,97.53,kWh,Electric,Electric Three-Wheeler (Cargo),29.2,13.6,10,Medium,350.58,1.91,0.0
+263,Delhi,Delhi,28.6139,77.209,Hyderabad,Telangana,17.385,78.4867,1007.76,57,12,31,Early Morning,Monday,121.2,kWh,Electric,Electric Three-Wheeler (Cargo),32.3,18.5,10,Medium,168.02,1.64,0.0
+264,Pune,Maharashtra,18.5204,73.8567,Thane,Maharashtra,19.2183,72.9781,123.81,81,19,0,Night,Thursday,12.36,Liters,Diesel,Ashok Leyland Dost,40.6,24.6,15,Low,691.84,2.08,33.12
+265,Kolkata,West Bengal,22.5726,88.3639,Chennai,Tamil Nadu,13.0827,80.2707,1253.22,85,15,0,Early Morning,Friday,101.61,Liters,Diesel,Tata Ace,35.6,23.0,10,Medium,177.38,2.51,272.31
+266,Chennai,Tamil Nadu,13.0827,80.2707,Bangalore,Karnataka,12.9716,77.5946,215.01,62,13,25,Morning Rush,Saturday,28.4,Liters,Diesel,Mahindra Bolero Pik-up,35.5,11.9,0,Very High,1215.58,1.82,76.11
+267,Ludhiana,Punjab,30.901,75.8573,Indore,Madhya Pradesh,22.7196,75.8577,1005.76,68,14,18,Morning Rush,Thursday,60.76,Kg,CNG,CNG Three-Wheeler (Cargo),35.4,11.5,0,Very High,347.0,1.46,124.56
+268,Kolkata,West Bengal,22.5726,88.3639,Bhopal,Madhya Pradesh,23.2599,77.4126,1410.06,62,21,17,Evening Rush,Sunday,206.1,kWh,Electric,Electric Three-Wheeler (Cargo),33.6,5.3,15,Very High,139.19,0.55,0.0
+269,Nagpur,Maharashtra,21.1458,79.0882,Vadodara,Gujarat,22.3072,73.1812,684.39,63,13,24,Early Morning,Wednesday,64.8,Liters,Diesel,Mahindra Bolero Pik-up,30.8,11.6,0,Medium,304.55,1.7,173.66
+270,Nagpur,Maharashtra,21.1458,79.0882,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,624.22,76,10,14,Afternoon,Monday,76.9,kWh,Electric,Electric Three-Wheeler (Cargo),34.1,17.0,0,Low,347.99,1.17,0.0
+271,Ludhiana,Punjab,30.901,75.8573,Thane,Maharashtra,19.2183,72.9781,1447.71,61,13,26,Evening Rush,Wednesday,293.7,kWh,Electric,Tata Ace EV,37.3,8.7,5,Medium,576.15,2.22,0.0
+272,Bangalore,Karnataka,12.9716,77.5946,Jaipur,Rajasthan,26.9124,75.7873,1769.01,51,26,23,Morning Rush,Thursday,176.36,Kg,CNG,Tata Ace,34.9,17.6,15,High,393.51,2.2,361.54
+273,Delhi,Delhi,28.6139,77.209,Kanpur,Uttar Pradesh,26.4499,80.3319,376.54,60,12,28,Afternoon,Wednesday,49.68,Liters,Diesel,Eicher Pro 2049 (LCV),28.7,17.9,0,Medium,2992.55,9.35,133.14
+274,Agra,Uttar Pradesh,27.1767,78.0081,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1346.38,83,13,4,Afternoon,Friday,481.73,Liters,Diesel,Tata Signa 2823.K (HCV),39.8,23.0,0,Low,16670.07,14.76,1291.04
+275,Thane,Maharashtra,19.2183,72.9781,Agra,Uttar Pradesh,27.1767,78.0081,989.21,63,30,7,Night,Thursday,45.42,Kg,CNG,CNG Three-Wheeler (Cargo),33.3,18.4,0,Medium,155.53,2.02,93.11
+276,Nagpur,Maharashtra,21.1458,79.0882,Nashik,Maharashtra,20.0084,73.7909,568.45,59,15,26,Early Morning,Wednesday,69.93,Liters,Diesel,Eicher Pro 2049 (LCV),38.1,23.4,0,Medium,2001.81,2.39,187.41
+277,Hyderabad,Telangana,17.385,78.4867,Agra,Uttar Pradesh,27.1767,78.0081,1168.93,76,24,0,Evening Rush,Saturday,183.85,Liters,Diesel,Eicher Pro 2049 (LCV),34.5,6.5,0,Very High,3013.13,5.56,492.72
+278,Nagpur,Maharashtra,21.1458,79.0882,Vadodara,Gujarat,22.3072,73.1812,571.03,78,22,0,Mid-Day,Sunday,122.74,Liters,Diesel,BharatBenz 1617R (MCV),36.9,6.4,5,Medium,4119.24,5.36,328.94
+279,Chennai,Tamil Nadu,13.0827,80.2707,Coimbatore,Tamil Nadu,11.0168,76.9558,325.87,81,19,0,Night,Saturday,30.22,Liters,Petrol,Tata Ace,30.8,24.3,0,Medium,654.82,1.61,69.81
+280,Ahmedabad,Gujarat,23.0225,72.5714,Bangalore,Karnataka,12.9716,77.5946,1254.01,66,11,23,Early Morning,Wednesday,235.32,kWh,Electric,Tata Ace EV,28.4,13.6,0,Low,502.06,1.02,0.0
+281,Thane,Maharashtra,19.2183,72.9781,Kanpur,Uttar Pradesh,26.4499,80.3319,882.7,75,16,9,Mid-Day,Thursday,113.45,Liters,Diesel,Tata 407 (LCV),36.9,16.9,0,Low,1403.13,3.06,304.05
+282,Indore,Madhya Pradesh,22.7196,75.8577,Chennai,Tamil Nadu,13.0827,80.2707,1409.53,79,21,0,Mid-Day,Sunday,177.29,Kg,CNG,Tata 407 (LCV),39.3,6.8,0,Medium,741.69,6.75,363.44
+283,Bhopal,Madhya Pradesh,23.2599,77.4126,Nagpur,Maharashtra,21.1458,79.0882,218.63,82,18,0,Mid-Day,Saturday,32.03,Kg,CNG,Tata 407 (LCV),41.4,10.5,5,Medium,2235.39,4.15,65.66
+284,Nashik,Maharashtra,20.0084,73.7909,Ludhiana,Punjab,30.901,75.8573,1635.59,76,24,0,Night,Tuesday,215.07,Kg,CNG,Tata 407 (LCV),38.3,8.9,5,Medium,1154.0,1.95,440.89
+285,Pune,Maharashtra,18.5204,73.8567,Kolkata,West Bengal,22.5726,88.3639,1208.28,56,10,34,Evening Rush,Saturday,273.2,Liters,Diesel,BharatBenz 1617R (MCV),44.7,17.5,0,High,2769.34,17.41,732.18
+286,Pune,Maharashtra,18.5204,73.8567,Hyderabad,Telangana,17.385,78.4867,677.18,65,12,23,Morning Rush,Wednesday,39.43,Kg,CNG,CNG Three-Wheeler (Cargo),33.6,12.3,0,High,442.98,1.34,80.83
+287,Jaipur,Rajasthan,26.9124,75.7873,Coimbatore,Tamil Nadu,11.0168,76.9558,1854.41,56,21,23,Mid-Day,Friday,876.84,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),36.2,24.3,0,Very High,19133.66,17.46,2349.93
+288,Ahmedabad,Gujarat,23.0225,72.5714,Ghaziabad,Uttar Pradesh,28.6692,77.4538,611.43,73,23,4,Mid-Day,Sunday,78.17,kWh,Electric,Electric Three-Wheeler (Cargo),38.4,22.9,0,Low,417.72,0.52,0.0
+289,Mumbai,Maharashtra,19.076,72.8777,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1291.83,54,23,23,Evening Rush,Thursday,173.8,kWh,Electric,Electric Three-Wheeler (Cargo),39.3,21.2,0,High,254.86,1.85,0.0
+290,Nagpur,Maharashtra,21.1458,79.0882,Delhi,Delhi,28.6139,77.209,645.7,64,22,14,Evening Rush,Tuesday,261.94,Liters,Diesel,Tata Signa 2823.K (HCV),32.0,10.3,0,Very High,9544.43,25.07,702.0
+291,Jaipur,Rajasthan,26.9124,75.7873,Bhopal,Madhya Pradesh,23.2599,77.4126,365.02,70,22,8,Morning Rush,Saturday,58.05,kWh,Electric,Tata Ace EV,34.0,13.7,0,Low,120.34,1.66,0.0
+292,Kanpur,Uttar Pradesh,26.4499,80.3319,Nashik,Maharashtra,20.0084,73.7909,889.85,76,12,12,Early Morning,Wednesday,94.88,Liters,Diesel,Mahindra Bolero Pik-up,29.4,21.5,0,Medium,973.5,4.2,254.28
+293,Nashik,Maharashtra,20.0084,73.7909,Nagpur,Maharashtra,21.1458,79.0882,463.06,60,29,11,Mid-Day,Friday,53.96,Kg,CNG,Tata Ace,40.3,13.8,15,Very High,611.74,0.92,110.62
+294,Mumbai,Maharashtra,19.076,72.8777,Ahmedabad,Gujarat,23.0225,72.5714,507.28,62,23,15,Afternoon,Thursday,26.11,Kg,CNG,CNG Three-Wheeler (Cargo),37.9,23.6,10,High,143.88,1.69,53.53
+295,Lucknow,Uttar Pradesh,26.8467,80.9462,Bangalore,Karnataka,12.9716,77.5946,1840.48,71,16,13,Morning Rush,Saturday,157.03,Kg,CNG,Ashok Leyland Dost,42.7,8.5,5,Low,277.02,4.11,321.91
+296,Patna,Bihar,25.5941,85.1376,Coimbatore,Tamil Nadu,11.0168,76.9558,1696.26,66,25,9,Afternoon,Monday,228.14,Kg,CNG,Tata 407 (LCV),31.9,10.5,0,Low,1855.82,3.33,467.69
+297,Chennai,Tamil Nadu,13.0827,80.2707,Vadodara,Gujarat,22.3072,73.1812,937.35,67,10,23,Morning Rush,Thursday,51.65,Kg,CNG,CNG Three-Wheeler (Cargo),42.7,12.8,0,High,329.64,0.68,105.88
+298,Chennai,Tamil Nadu,13.0827,80.2707,Thane,Maharashtra,19.2183,72.9781,1387.7,56,14,30,Night,Monday,124.91,Liters,Diesel,Tata Ace,30.3,6.2,0,Medium,561.61,1.89,334.76
+299,Chennai,Tamil Nadu,13.0827,80.2707,Kanpur,Uttar Pradesh,26.4499,80.3319,1866.24,81,11,8,Night,Friday,211.31,Liters,Diesel,Mahindra Bolero Pik-up,39.8,8.6,0,Medium,1343.19,1.73,566.31
+300,Guwahati,Assam,26.1445,91.7362,Jaipur,Rajasthan,26.9124,75.7873,1605.95,68,18,14,Mid-Day,Wednesday,247.2,Liters,Diesel,Eicher Pro 2049 (LCV),44.3,7.8,5,Very High,2700.14,2.69,662.5
+301,Kanpur,Uttar Pradesh,26.4499,80.3319,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,888.51,82,18,0,Night,Wednesday,119.46,kWh,Electric,Electric Three-Wheeler (Cargo),30.1,21.1,15,Medium,295.06,1.45,0.0
+302,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Kanpur,Uttar Pradesh,26.4499,80.3319,536.67,64,10,26,Afternoon,Monday,122.5,kWh,Electric,Tata Ace EV,30.5,20.6,0,Very High,434.73,2.98,0.0
+303,Coimbatore,Tamil Nadu,11.0168,76.9558,Surat,Gujarat,21.1702,72.8311,1563.61,85,15,0,Mid-Day,Monday,228.1,Liters,Diesel,Tata 407 (LCV),34.4,18.7,5,Medium,2191.99,3.99,611.31
+304,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Bangalore,Karnataka,12.9716,77.5946,772.06,73,18,9,Mid-Day,Monday,66.42,Liters,Diesel,Tata Ace,30.7,22.8,0,Low,572.35,3.01,178.01
+305,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Ludhiana,Punjab,30.901,75.8573,335.8,50,23,27,Night,Monday,37.61,Liters,Diesel,Mahindra Bolero Pik-up,42.3,24.6,10,Medium,1092.0,3.66,100.79
+306,Lucknow,Uttar Pradesh,26.8467,80.9462,Coimbatore,Tamil Nadu,11.0168,76.9558,2238.81,62,25,13,Afternoon,Monday,191.99,Liters,Diesel,Ashok Leyland Dost,31.6,6.9,5,Low,299.79,2.83,514.53
+307,Hyderabad,Telangana,17.385,78.4867,Coimbatore,Tamil Nadu,11.0168,76.9558,934.81,63,22,15,Afternoon,Monday,316.5,Liters,Diesel,Tata Signa 2823.K (HCV),30.5,8.3,15,Low,7803.66,14.58,848.22
+308,Chennai,Tamil Nadu,13.0827,80.2707,Nashik,Maharashtra,20.0084,73.7909,1050.82,51,25,24,Evening Rush,Friday,106.13,Kg,CNG,Tata Ace,37.4,12.1,15,High,431.28,2.29,217.57
+309,Delhi,Delhi,28.6139,77.209,Agra,Uttar Pradesh,27.1767,78.0081,242.95,73,20,7,Afternoon,Friday,29.09,Liters,Diesel,Eicher Pro 2049 (LCV),32.4,5.2,0,Low,2300.48,6.91,77.96
+310,Mumbai,Maharashtra,19.076,72.8777,Bangalore,Karnataka,12.9716,77.5946,866.26,68,25,7,Early Morning,Friday,110.74,Liters,Diesel,Eicher Pro 2049 (LCV),32.3,14.9,0,Medium,2537.66,7.62,296.78
+311,Delhi,Delhi,28.6139,77.209,Agra,Uttar Pradesh,27.1767,78.0081,187.07,64,10,26,Morning Rush,Sunday,82.71,Liters,Diesel,Tata Signa 2823.K (HCV),28.2,8.1,0,Very High,15792.35,21.83,221.66
+312,Ahmedabad,Gujarat,23.0225,72.5714,Pune,Maharashtra,18.5204,73.8567,632.47,66,28,6,Morning Rush,Thursday,68.55,Liters,Petrol,Tata Ace,42.6,20.4,0,Very High,596.78,2.07,158.35
+313,Pune,Maharashtra,18.5204,73.8567,Delhi,Delhi,28.6139,77.209,1278.21,81,13,6,Night,Thursday,109.64,Liters,Diesel,Ashok Leyland Dost,36.9,6.1,0,Low,300.81,2.33,293.84
+314,Agra,Uttar Pradesh,27.1767,78.0081,Chennai,Tamil Nadu,13.0827,80.2707,2112.32,65,12,23,Morning Rush,Thursday,860.69,Liters,Diesel,Tata Signa 2823.K (HCV),41.5,6.6,10,High,13713.24,10.53,2306.65
+315,Ludhiana,Punjab,30.901,75.8573,Indore,Madhya Pradesh,22.7196,75.8577,877.34,82,12,6,Evening Rush,Friday,200.45,Liters,Diesel,BharatBenz 1617R (MCV),44.5,22.1,0,High,3113.1,5.83,537.21
+316,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Hyderabad,Telangana,17.385,78.4867,661.21,62,18,20,Morning Rush,Thursday,67.61,Liters,Diesel,Tata Ace,37.3,11.6,5,Very High,421.49,1.16,181.19
+317,Lucknow,Uttar Pradesh,26.8467,80.9462,Guwahati,Assam,26.1445,91.7362,1208.52,67,20,13,Afternoon,Thursday,142.26,Liters,Diesel,Mahindra Bolero Pik-up,30.6,11.6,0,High,1020.98,2.25,381.26
+318,Kolkata,West Bengal,22.5726,88.3639,Indore,Madhya Pradesh,22.7196,75.8577,1259.87,52,27,21,Morning Rush,Friday,564.71,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),40.7,10.1,5,High,21943.05,26.34,1513.42
+319,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Kolkata,West Bengal,22.5726,88.3639,1046.85,82,18,0,Early Morning,Friday,128.21,kWh,Electric,Electric Three-Wheeler (Cargo),35.5,14.4,10,Medium,198.67,1.19,0.0
+320,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Bangalore,Karnataka,12.9716,77.5946,789.29,70,26,4,Afternoon,Sunday,36.25,Kg,CNG,CNG Three-Wheeler (Cargo),30.6,14.6,5,Low,246.96,0.66,74.31
+321,Thane,Maharashtra,19.2183,72.9781,Bhopal,Madhya Pradesh,23.2599,77.4126,658.85,52,19,29,Afternoon,Wednesday,37.89,Kg,CNG,CNG Three-Wheeler (Cargo),41.8,24.8,0,Very High,250.23,2.16,77.67
+322,Guwahati,Assam,26.1445,91.7362,Surat,Gujarat,21.1702,72.8311,2018.21,51,16,33,Evening Rush,Thursday,191.24,Liters,Petrol,Tata Ace,39.1,7.4,0,Very High,207.34,1.65,441.76
+323,Nashik,Maharashtra,20.0084,73.7909,Vadodara,Gujarat,22.3072,73.1812,331.12,55,11,34,Morning Rush,Wednesday,15.91,Kg,CNG,CNG Three-Wheeler (Cargo),43.2,23.5,0,Medium,239.51,2.1,32.62
+324,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Indore,Madhya Pradesh,22.7196,75.8577,622.43,83,17,0,Evening Rush,Monday,135.73,kWh,Electric,Tata Ace EV,30.5,8.5,10,High,454.57,1.0,0.0
+325,Agra,Uttar Pradesh,27.1767,78.0081,Surat,Gujarat,21.1702,72.8311,1051.73,59,21,20,Morning Rush,Friday,164.71,kWh,Electric,Electric Three-Wheeler (Cargo),30.1,24.3,0,Very High,379.25,1.49,0.0
+326,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Bangalore,Karnataka,12.9716,77.5946,1853.97,75,15,10,Afternoon,Friday,95.74,Kg,CNG,CNG Three-Wheeler (Cargo),42.6,11.9,15,Medium,248.46,2.08,196.27
+327,Bhopal,Madhya Pradesh,23.2599,77.4126,Kanpur,Uttar Pradesh,26.4499,80.3319,373.75,66,11,23,Evening Rush,Monday,38.0,Liters,Diesel,Tata Ace,42.1,13.9,0,High,657.29,2.41,101.84
+328,Mumbai,Maharashtra,19.076,72.8777,Indore,Madhya Pradesh,22.7196,75.8577,533.22,70,20,10,Mid-Day,Wednesday,75.18,Liters,Diesel,Tata 407 (LCV),41.7,16.0,0,High,954.81,7.14,201.48
+329,Ahmedabad,Gujarat,23.0225,72.5714,Agra,Uttar Pradesh,27.1767,78.0081,852.61,68,27,5,Evening Rush,Wednesday,175.14,kWh,Electric,Tata Ace EV,30.6,21.9,0,High,381.67,1.06,0.0
+330,Agra,Uttar Pradesh,27.1767,78.0081,Agra,Uttar Pradesh,27.1767,78.0081,33.87,14,69,17,Mid-Day,Saturday,3.83,Liters,Diesel,Mahindra Bolero Pik-up,29.6,10.3,10,Low,1463.8,5.88,10.26
+331,Jaipur,Rajasthan,26.9124,75.7873,Kolkata,West Bengal,22.5726,88.3639,1230.14,58,15,27,Afternoon,Tuesday,77.48,Kg,CNG,CNG Three-Wheeler (Cargo),30.6,9.8,0,Very High,432.91,0.51,158.83
+332,Nagpur,Maharashtra,21.1458,79.0882,Nashik,Maharashtra,20.0084,73.7909,788.17,58,18,24,Early Morning,Thursday,276.42,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),44.1,9.2,0,Low,12395.27,23.6,740.81
+333,Nashik,Maharashtra,20.0084,73.7909,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1338.95,71,23,6,Evening Rush,Saturday,262.42,kWh,Electric,Tata Ace EV,28.7,17.8,0,High,272.35,1.78,0.0
+334,Guwahati,Assam,26.1445,91.7362,Ludhiana,Punjab,30.901,75.8573,2110.58,55,29,16,Evening Rush,Saturday,314.35,Liters,Diesel,Eicher Pro 2049 (LCV),36.1,12.7,5,High,3443.22,2.12,842.46
+335,Chennai,Tamil Nadu,13.0827,80.2707,Surat,Gujarat,21.1702,72.8311,1241.04,72,19,9,Evening Rush,Sunday,516.34,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),35.8,15.0,10,High,12527.57,29.58,1383.79
+336,Surat,Gujarat,21.1702,72.8311,Indore,Madhya Pradesh,22.7196,75.8577,398.41,82,18,0,Evening Rush,Thursday,76.29,kWh,Electric,Tata Ace EV,37.7,6.0,5,High,220.26,1.07,0.0
+337,Vadodara,Gujarat,22.3072,73.1812,Agra,Uttar Pradesh,27.1767,78.0081,728.21,80,20,0,Afternoon,Thursday,92.39,Liters,Diesel,Mahindra Bolero Pik-up,29.8,13.4,5,Very High,970.73,5.71,247.61
+338,Indore,Madhya Pradesh,22.7196,75.8577,Bhopal,Madhya Pradesh,23.2599,77.4126,149.56,67,21,12,Early Morning,Friday,19.51,Liters,Diesel,Eicher Pro 2049 (LCV),44.5,17.5,5,Medium,2826.1,8.48,52.29
+339,Delhi,Delhi,28.6139,77.209,Vadodara,Gujarat,22.3072,73.1812,834.03,81,14,5,Afternoon,Tuesday,183.82,kWh,Electric,Tata Ace EV,39.5,6.7,5,Very High,350.94,2.87,0.0
+340,Coimbatore,Tamil Nadu,11.0168,76.9558,Jaipur,Rajasthan,26.9124,75.7873,1341.2,57,23,20,Evening Rush,Sunday,297.98,kWh,Electric,Tata Ace EV,37.6,20.3,0,High,575.96,1.87,0.0
+341,Lucknow,Uttar Pradesh,26.8467,80.9462,Jaipur,Rajasthan,26.9124,75.7873,563.86,58,29,13,Night,Monday,51.56,Liters,Diesel,Mahindra Bolero Pik-up,28.8,8.8,5,Low,379.17,4.05,138.18
+342,Hyderabad,Telangana,17.385,78.4867,Indore,Madhya Pradesh,22.7196,75.8577,690.78,52,29,19,Night,Sunday,65.77,Liters,Diesel,Tata Ace,40.6,18.6,0,Medium,738.61,0.82,176.26
+343,Guwahati,Assam,26.1445,91.7362,Ghaziabad,Uttar Pradesh,28.6692,77.4538,1830.64,51,20,29,Mid-Day,Tuesday,842.51,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),30.2,19.4,0,Very High,16666.77,16.92,2257.93
+344,Kanpur,Uttar Pradesh,26.4499,80.3319,Thane,Maharashtra,19.2183,72.9781,853.72,57,30,13,Evening Rush,Friday,52.6,Kg,CNG,CNG Three-Wheeler (Cargo),37.9,13.2,0,Very High,387.0,1.97,107.83
+345,Thane,Maharashtra,19.2183,72.9781,Agra,Uttar Pradesh,27.1767,78.0081,1382.73,55,10,35,Afternoon,Thursday,147.67,Liters,Diesel,Mahindra Bolero Pik-up,38.6,17.9,10,Medium,808.88,2.86,395.76
+346,Bangalore,Karnataka,12.9716,77.5946,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,691.42,51,17,32,Morning Rush,Monday,81.1,Liters,Petrol,Tata Ace,28.0,5.3,15,Very High,632.11,2.1,187.34
+347,Kanpur,Uttar Pradesh,26.4499,80.3319,Agra,Uttar Pradesh,27.1767,78.0081,281.73,85,15,0,Evening Rush,Friday,114.6,Liters,Diesel,Tata Signa 2823.K (HCV),33.0,10.6,0,High,15798.28,18.41,307.13
+348,Indore,Madhya Pradesh,22.7196,75.8577,Bangalore,Karnataka,12.9716,77.5946,1098.36,85,15,0,Afternoon,Wednesday,269.77,Liters,Diesel,BharatBenz 1617R (MCV),37.4,24.4,10,Medium,7850.57,17.44,722.98
+349,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Kolkata,West Bengal,22.5726,88.3639,1272.01,54,25,21,Evening Rush,Friday,144.86,Liters,Diesel,Ashok Leyland Dost,32.1,18.4,0,Very High,578.58,3.25,388.22
+350,Jaipur,Rajasthan,26.9124,75.7873,Bhopal,Madhya Pradesh,23.2599,77.4126,494.19,84,16,0,Mid-Day,Wednesday,142.24,Liters,Diesel,BharatBenz 1617R (MCV),41.7,15.5,0,Very High,8377.73,8.13,381.2
+351,Ahmedabad,Gujarat,23.0225,72.5714,Agra,Uttar Pradesh,27.1767,78.0081,780.05,68,11,21,Afternoon,Sunday,120.51,kWh,Electric,Electric Three-Wheeler (Cargo),35.7,23.4,0,Very High,353.84,0.73,0.0
+352,Lucknow,Uttar Pradesh,26.8467,80.9462,Nagpur,Maharashtra,21.1458,79.0882,556.96,56,14,30,Mid-Day,Thursday,55.1,Kg,CNG,Ashok Leyland Dost,34.9,24.7,0,High,313.82,1.54,112.96
+353,Vadodara,Gujarat,22.3072,73.1812,Lucknow,Uttar Pradesh,26.8467,80.9462,726.92,80,10,10,Evening Rush,Sunday,147.69,kWh,Electric,Tata Ace EV,36.8,21.7,10,High,287.04,1.89,0.0
+354,Nagpur,Maharashtra,21.1458,79.0882,Jaipur,Rajasthan,26.9124,75.7873,600.85,64,29,7,Night,Friday,201.7,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),35.5,17.7,5,Low,8723.96,18.14,540.56
+355,Jaipur,Rajasthan,26.9124,75.7873,Delhi,Delhi,28.6139,77.209,206.25,52,24,24,Night,Friday,22.22,Liters,Diesel,Eicher Pro 2049 (LCV),30.0,17.9,0,Low,903.06,2.03,59.55
+356,Agra,Uttar Pradesh,27.1767,78.0081,Patna,Bihar,25.5941,85.1376,982.88,53,16,31,Night,Saturday,142.65,Kg,CNG,Tata 407 (LCV),36.3,18.7,0,Medium,2138.51,6.53,292.43
+357,Kolkata,West Bengal,22.5726,88.3639,Surat,Gujarat,21.1702,72.8311,1422.49,50,20,30,Mid-Day,Friday,543.87,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),44.7,15.8,5,High,7936.64,27.57,1457.57
+358,Lucknow,Uttar Pradesh,26.8467,80.9462,Nagpur,Maharashtra,21.1458,79.0882,520.25,73,15,12,Evening Rush,Saturday,71.76,Liters,Diesel,Eicher Pro 2049 (LCV),33.2,19.0,5,High,2325.89,7.83,192.32
+359,Chennai,Tamil Nadu,13.0827,80.2707,Indore,Madhya Pradesh,22.7196,75.8577,1048.66,82,18,0,Evening Rush,Saturday,108.52,Kg,CNG,Tata Ace,35.2,7.2,15,Very High,263.21,2.37,222.47
+360,Lucknow,Uttar Pradesh,26.8467,80.9462,Kolkata,West Bengal,22.5726,88.3639,730.37,83,17,0,Morning Rush,Wednesday,42.67,Kg,CNG,CNG Three-Wheeler (Cargo),44.6,8.4,0,Very High,280.91,2.18,87.47
+361,Chennai,Tamil Nadu,13.0827,80.2707,Jaipur,Rajasthan,26.9124,75.7873,1170.4,57,11,32,Night,Saturday,125.49,Liters,Diesel,Ashok Leyland Dost,37.6,10.9,0,Medium,1151.93,3.89,336.31
+362,Delhi,Delhi,28.6139,77.209,Chennai,Tamil Nadu,13.0827,80.2707,1804.66,63,18,19,Night,Thursday,228.79,Liters,Diesel,Tata 407 (LCV),29.1,10.5,5,Medium,813.64,7.24,613.16
+363,Indore,Madhya Pradesh,22.7196,75.8577,Ludhiana,Punjab,30.901,75.8573,778.25,73,10,17,Evening Rush,Sunday,123.38,Liters,Diesel,Tata 407 (LCV),34.3,10.7,0,High,2110.11,2.89,330.66
+364,Vadodara,Gujarat,22.3072,73.1812,Ahmedabad,Gujarat,23.0225,72.5714,137.52,62,16,22,Afternoon,Friday,6.5,Kg,CNG,CNG Three-Wheeler (Cargo),42.0,13.3,0,Low,302.36,1.8,13.32
+365,Kolkata,West Bengal,22.5726,88.3639,Hyderabad,Telangana,17.385,78.4867,1292.28,80,20,0,Afternoon,Saturday,276.0,kWh,Electric,Tata Ace EV,42.6,6.3,0,Very High,278.11,2.92,0.0
+366,Indore,Madhya Pradesh,22.7196,75.8577,Ludhiana,Punjab,30.901,75.8573,900.48,67,10,23,Early Morning,Friday,348.24,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),37.9,24.2,0,Medium,16697.29,28.36,933.28
+367,Hyderabad,Telangana,17.385,78.4867,Lucknow,Uttar Pradesh,26.8467,80.9462,840.76,80,11,9,Morning Rush,Sunday,353.64,Liters,Diesel,Tata Signa 2823.K (HCV),40.1,5.1,15,High,13249.16,7.68,947.76
+368,Lucknow,Uttar Pradesh,26.8467,80.9462,Surat,Gujarat,21.1702,72.8311,1022.31,60,18,22,Morning Rush,Friday,156.14,Liters,Diesel,Eicher Pro 2049 (LCV),41.2,16.1,5,Very High,2588.32,6.35,418.46
+369,Kanpur,Uttar Pradesh,26.4499,80.3319,Patna,Bihar,25.5941,85.1376,550.07,56,20,24,Morning Rush,Wednesday,146.43,Liters,Diesel,BharatBenz 1617R (MCV),41.6,7.9,5,High,8578.84,17.88,392.43
+370,Coimbatore,Tamil Nadu,11.0168,76.9558,Guwahati,Assam,26.1445,91.7362,1029.1710113672443,52,16,32,Afternoon,Thursday,52.13,Kg,CNG,CNG Three-Wheeler (Cargo),31.9,24.0,10,Medium,284.93,1.8,106.87
+371,Chennai,Tamil Nadu,13.0827,80.2707,Guwahati,Assam,26.1445,91.7362,2379.24,51,22,27,Mid-Day,Sunday,420.38,Liters,Diesel,Tata 407 (LCV),29.6,22.7,0,Very High,2374.83,8.61,1126.62
+372,Coimbatore,Tamil Nadu,11.0168,76.9558,Ghaziabad,Uttar Pradesh,28.6692,77.4538,1795.26,68,10,22,Afternoon,Thursday,222.48,Liters,Diesel,Ashok Leyland Dost,37.6,16.3,0,Very High,996.87,1.18,596.25
+373,Mumbai,Maharashtra,19.076,72.8777,Bhopal,Madhya Pradesh,23.2599,77.4126,548.72,73,10,17,Early Morning,Wednesday,57.79,Liters,Diesel,Mahindra Bolero Pik-up,43.0,11.9,5,Low,1195.06,3.87,154.88
+374,Coimbatore,Tamil Nadu,11.0168,76.9558,Ludhiana,Punjab,30.901,75.8573,1861.858120337193,56,12,32,Afternoon,Thursday,219.16,Liters,Diesel,Mahindra Bolero Pik-up,41.5,21.7,10,Medium,1402.28,4.42,587.35
+375,Patna,Bihar,25.5941,85.1376,Nagpur,Maharashtra,21.1458,79.0882,679.99,51,21,28,Night,Thursday,99.89,Liters,Diesel,Tata 407 (LCV),28.1,7.9,15,Low,2067.82,7.15,267.71
+376,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Nashik,Maharashtra,20.0084,73.7909,1182.8,57,11,32,Morning Rush,Tuesday,156.6,Liters,Diesel,Mahindra Bolero Pik-up,42.6,6.6,0,Very High,1230.35,3.99,419.69
+377,Jaipur,Rajasthan,26.9124,75.7873,Ludhiana,Punjab,30.901,75.8573,465.2,63,24,13,Early Morning,Friday,100.48,Liters,Diesel,BharatBenz 1617R (MCV),35.1,17.7,0,Low,5999.75,6.66,269.29
+378,Nashik,Maharashtra,20.0084,73.7909,Ahmedabad,Gujarat,23.0225,72.5714,392.7,59,12,29,Mid-Day,Wednesday,63.18,Liters,Diesel,Eicher Pro 2049 (LCV),32.9,15.7,5,Very High,3350.31,2.38,169.32
+379,Kolkata,West Bengal,22.5726,88.3639,Surat,Gujarat,21.1702,72.8311,2065.16,52,24,24,Night,Sunday,713.53,Liters,Diesel,Tata Signa 2823.K (HCV),38.6,12.6,0,Low,14037.98,23.77,1912.26
+380,Pune,Maharashtra,18.5204,73.8567,Agra,Uttar Pradesh,27.1767,78.0081,949.15,51,20,29,Early Morning,Wednesday,177.53,kWh,Electric,Tata Ace EV,38.3,5.6,15,Low,330.73,1.23,0.0
+381,Nashik,Maharashtra,20.0084,73.7909,Jaipur,Rajasthan,26.9124,75.7873,697.32,59,30,11,Afternoon,Thursday,89.07,kWh,Electric,Electric Three-Wheeler (Cargo),28.4,5.1,0,Medium,324.79,0.6,0.0
+382,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Nagpur,Maharashtra,21.1458,79.0882,744.66,63,15,22,Evening Rush,Saturday,78.18,Liters,Diesel,Ashok Leyland Dost,28.4,12.8,0,High,588.43,1.71,209.52
+383,Ludhiana,Punjab,30.901,75.8573,Delhi,Delhi,28.6139,77.209,250.89,50,13,37,Evening Rush,Sunday,103.86,Liters,Diesel,Tata Signa 2823.K (HCV),28.8,21.0,0,Very High,10962.71,12.59,278.34
+384,Indore,Madhya Pradesh,22.7196,75.8577,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1272.93,67,30,3,Mid-Day,Monday,128.48,Kg,CNG,Tata Ace,33.5,23.7,5,Very High,383.86,2.51,263.38
+385,Indore,Madhya Pradesh,22.7196,75.8577,Thane,Maharashtra,19.2183,72.9781,430.05,65,23,12,Mid-Day,Tuesday,88.01,kWh,Electric,Tata Ace EV,39.8,9.2,0,High,372.85,2.18,0.0
+386,Indore,Madhya Pradesh,22.7196,75.8577,Hyderabad,Telangana,17.385,78.4867,836.91,65,16,19,Afternoon,Thursday,88.85,Kg,CNG,Ashok Leyland Dost,34.9,23.6,15,Low,1000.89,2.11,182.14
+387,Chennai,Tamil Nadu,13.0827,80.2707,Pune,Maharashtra,18.5204,73.8567,859.91,73,10,17,Mid-Day,Thursday,361.81,Liters,Diesel,Tata Signa 2823.K (HCV),37.1,19.3,5,Very High,12129.09,24.38,969.65
+388,Jaipur,Rajasthan,26.9124,75.7873,Coimbatore,Tamil Nadu,11.0168,76.9558,1276.39,78,13,9,Early Morning,Saturday,171.07,Liters,Diesel,Eicher Pro 2049 (LCV),44.0,19.6,5,Medium,3225.57,5.22,458.47
+389,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Lucknow,Uttar Pradesh,26.8467,80.9462,820.72,57,15,28,Early Morning,Friday,74.32,Liters,Diesel,Tata Ace,29.1,10.2,0,Low,734.26,2.44,199.18
+390,Bhopal,Madhya Pradesh,23.2599,77.4126,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,792.5,62,19,19,Evening Rush,Tuesday,78.11,Kg,CNG,Tata Ace,28.5,17.7,10,Very High,234.13,3.16,160.13
+391,Guwahati,Assam,26.1445,91.7362,Delhi,Delhi,28.6139,77.209,1495.69,65,28,7,Night,Sunday,306.32,Liters,Diesel,BharatBenz 1617R (MCV),40.2,12.0,0,Low,4134.19,5.23,820.94
+392,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Coimbatore,Tamil Nadu,11.0168,76.9558,989.84,83,17,0,Night,Sunday,111.41,kWh,Electric,Electric Three-Wheeler (Cargo),33.8,11.0,0,Medium,107.95,1.25,0.0
+393,Patna,Bihar,25.5941,85.1376,Coimbatore,Tamil Nadu,11.0168,76.9558,2277.65,69,23,8,Night,Tuesday,558.27,Liters,Diesel,BharatBenz 1617R (MCV),33.2,11.3,0,Medium,8905.71,6.0,1496.16
+394,Pune,Maharashtra,18.5204,73.8567,Mumbai,Maharashtra,19.076,72.8777,104.19,57,11,32,Early Morning,Monday,4.67,Kg,CNG,CNG Three-Wheeler (Cargo),32.0,22.8,0,Medium,113.57,0.52,9.57
+395,Mumbai,Maharashtra,19.076,72.8777,Hyderabad,Telangana,17.385,78.4867,543.29,63,21,16,Mid-Day,Monday,61.82,Liters,Diesel,Eicher Pro 2049 (LCV),29.8,10.0,0,Medium,975.86,2.33,165.68
+396,Kanpur,Uttar Pradesh,26.4499,80.3319,Indore,Madhya Pradesh,22.7196,75.8577,754.5,74,19,7,Early Morning,Thursday,69.52,Liters,Diesel,Ashok Leyland Dost,42.8,24.2,0,Medium,403.95,1.69,186.31
+397,Ahmedabad,Gujarat,23.0225,72.5714,Nagpur,Maharashtra,21.1458,79.0882,754.96,58,18,24,Early Morning,Saturday,162.4,Liters,Diesel,BharatBenz 1617R (MCV),42.3,8.3,10,Low,4806.66,10.94,435.23
+398,Ahmedabad,Gujarat,23.0225,72.5714,Agra,Uttar Pradesh,27.1767,78.0081,770.25,60,14,26,Mid-Day,Tuesday,288.82,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),31.3,16.5,0,High,6371.46,28.94,774.04
+399,Thane,Maharashtra,19.2183,72.9781,Bangalore,Karnataka,12.9716,77.5946,1076.28,64,20,16,Afternoon,Saturday,123.52,Liters,Diesel,Mahindra Bolero Pik-up,41.3,13.9,5,High,870.28,1.73,331.03
+400,Delhi,Delhi,28.6139,77.209,Hyderabad,Telangana,17.385,78.4867,1461.76,67,24,9,Mid-Day,Sunday,173.93,Liters,Diesel,Ashok Leyland Dost,31.2,23.9,0,High,1222.22,2.75,466.13
+401,Jaipur,Rajasthan,26.9124,75.7873,Ahmedabad,Gujarat,23.0225,72.5714,739.26,69,22,9,Afternoon,Friday,74.33,Liters,Diesel,Ashok Leyland Dost,32.3,21.6,10,Medium,675.36,3.02,199.2
+402,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Ludhiana,Punjab,30.901,75.8573,1992.14,78,22,0,Early Morning,Sunday,442.93,Liters,Diesel,BharatBenz 1617R (MCV),30.9,10.4,0,Medium,5292.0,15.76,1187.05
+403,Nagpur,Maharashtra,21.1458,79.0882,Bhopal,Madhya Pradesh,23.2599,77.4126,328.94,57,26,17,Afternoon,Friday,37.17,Kg,CNG,Ashok Leyland Dost,35.4,20.0,0,High,951.55,4.52,76.2
+404,Thane,Maharashtra,19.2183,72.9781,Jaipur,Rajasthan,26.9124,75.7873,1178.26,82,18,0,Night,Friday,119.64,Kg,CNG,Ashok Leyland Dost,36.3,16.2,15,Medium,540.42,2.33,245.26
+405,Lucknow,Uttar Pradesh,26.8467,80.9462,Guwahati,Assam,26.1445,91.7362,1309.24,74,26,0,Early Morning,Wednesday,123.2,Liters,Diesel,Tata Ace,39.5,7.6,0,Medium,700.76,1.15,330.18
+406,Agra,Uttar Pradesh,27.1767,78.0081,Bhopal,Madhya Pradesh,23.2599,77.4126,463.26,85,15,0,Evening Rush,Tuesday,65.68,Liters,Diesel,Eicher Pro 2049 (LCV),37.9,21.9,0,Very High,1566.05,7.05,176.02
+407,Ludhiana,Punjab,30.901,75.8573,Bhopal,Madhya Pradesh,23.2599,77.4126,924.24,73,27,0,Early Morning,Wednesday,42.17,Kg,CNG,CNG Three-Wheeler (Cargo),43.8,16.3,0,Medium,143.73,0.92,86.45
+408,Thane,Maharashtra,19.2183,72.9781,Surat,Gujarat,21.1702,72.8311,203.41,82,18,0,Early Morning,Tuesday,45.77,Liters,Diesel,BharatBenz 1617R (MCV),42.5,18.8,15,Low,5048.44,16.0,122.66
+409,Agra,Uttar Pradesh,27.1767,78.0081,Bangalore,Karnataka,12.9716,77.5946,1404.41,51,21,28,Mid-Day,Sunday,133.7,Kg,CNG,Ashok Leyland Dost,31.8,9.9,10,Medium,418.19,2.45,274.08
+410,Patna,Bihar,25.5941,85.1376,Chennai,Tamil Nadu,13.0827,80.2707,1911.14,63,29,8,Evening Rush,Saturday,176.81,Liters,Diesel,Ashok Leyland Dost,42.0,15.2,0,Medium,422.4,2.27,473.85
+411,Agra,Uttar Pradesh,27.1767,78.0081,Kolkata,West Bengal,22.5726,88.3639,1068.05,65,22,13,Night,Monday,106.46,Liters,Diesel,Mahindra Bolero Pik-up,38.8,23.7,0,Medium,584.23,4.58,285.31
+412,Delhi,Delhi,28.6139,77.209,Guwahati,Assam,26.1445,91.7362,2187.16,85,15,0,Afternoon,Sunday,247.38,Liters,Diesel,Eicher Pro 2049 (LCV),33.6,16.3,10,Low,1144.85,4.84,662.98
+413,Nashik,Maharashtra,20.0084,73.7909,Nagpur,Maharashtra,21.1458,79.0882,605.05,81,19,0,Morning Rush,Friday,84.66,Liters,Diesel,Tata 407 (LCV),37.0,14.8,5,High,884.7,2.73,226.89
+414,Thane,Maharashtra,19.2183,72.9781,Lucknow,Uttar Pradesh,26.8467,80.9462,971.02,66,19,15,Evening Rush,Wednesday,246.12,Liters,Diesel,BharatBenz 1617R (MCV),37.7,18.9,0,High,6734.12,13.42,659.6
+415,Kolkata,West Bengal,22.5726,88.3639,Ahmedabad,Gujarat,23.0225,72.5714,1941.67,51,29,20,Night,Sunday,258.27,Liters,Diesel,Tata 407 (LCV),33.8,11.2,0,Low,1743.53,1.88,692.16
+416,Bhopal,Madhya Pradesh,23.2599,77.4126,Thane,Maharashtra,19.2183,72.9781,535.62,83,17,0,Afternoon,Friday,56.63,Liters,Diesel,Mahindra Bolero Pik-up,37.4,24.7,0,Low,1219.68,2.31,151.77
+417,Vadodara,Gujarat,22.3072,73.1812,Mumbai,Maharashtra,19.076,72.8777,424.64,65,21,14,Evening Rush,Monday,36.76,Liters,Diesel,Tata Ace,37.2,8.8,0,Medium,444.27,1.17,98.52
+418,Pune,Maharashtra,18.5204,73.8567,Lucknow,Uttar Pradesh,26.8467,80.9462,970.35,64,12,24,Early Morning,Thursday,188.05,Liters,Diesel,BharatBenz 1617R (MCV),29.8,17.0,0,Low,2299.57,11.23,503.97
+419,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,Nagpur,Maharashtra,21.1458,79.0882,707.76,52,30,18,Afternoon,Monday,305.81,Liters,Diesel,Tata Signa 2823.K (HCV),30.3,8.4,5,Very High,14072.28,14.12,819.57
+420,Thane,Maharashtra,19.2183,72.9781,Ahmedabad,Gujarat,23.0225,72.5714,491.59,83,16,1,Mid-Day,Tuesday,98.92,kWh,Electric,Tata Ace EV,38.1,13.4,5,Very High,146.45,0.89,0.0
+421,Mumbai,Maharashtra,19.076,72.8777,Bhopal,Madhya Pradesh,23.2599,77.4126,578.34,58,25,17,Afternoon,Friday,24.74,Kg,CNG,CNG Three-Wheeler (Cargo),30.2,8.0,0,Low,115.98,1.34,50.72
+422,Bangalore,Karnataka,12.9716,77.5946,Delhi,Delhi,28.6139,77.209,2155.37,75,13,12,Early Morning,Tuesday,300.41,Kg,CNG,Tata 407 (LCV),31.3,13.1,0,Medium,1722.86,6.41,615.84
+423,Vadodara,Gujarat,22.3072,73.1812,Thane,Maharashtra,19.2183,72.9781,411.53,51,16,33,Night,Friday,49.6,kWh,Electric,Electric Three-Wheeler (Cargo),28.2,21.5,5,Medium,221.97,0.45,0.0
+424,Jaipur,Rajasthan,26.9124,75.7873,Guwahati,Assam,26.1445,91.7362,1871.66,75,25,0,Mid-Day,Saturday,622.66,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),32.6,9.1,0,Low,7988.03,17.29,1668.73
+425,Bangalore,Karnataka,12.9716,77.5946,Hyderabad,Telangana,17.385,78.4867,452.32,57,14,29,Evening Rush,Saturday,34.58,Kg,CNG,Tata Ace,30.6,5.4,0,Low,230.3,2.7,70.89
+426,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Coimbatore,Tamil Nadu,11.0168,76.9558,1749.1288340103447,51,24,25,Morning Rush,Saturday,175.43,Liters,Diesel,Tata Ace,32.6,18.7,10,Very High,282.19,0.81,470.15
+427,Mumbai,Maharashtra,19.076,72.8777,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1365.79,84,16,0,Early Morning,Friday,146.4,Liters,Diesel,Mahindra Bolero Pik-up,41.3,23.5,0,Low,1305.43,1.36,392.35
+428,Surat,Gujarat,21.1702,72.8311,Hyderabad,Telangana,17.385,78.4867,965.34,65,18,17,Night,Monday,73.38,Liters,Diesel,Tata Ace,41.5,21.5,0,Low,214.86,3.31,196.66
+429,Patna,Bihar,25.5941,85.1376,Indore,Madhya Pradesh,22.7196,75.8577,1430.63,78,22,0,Mid-Day,Thursday,123.2,Kg,CNG,Tata Ace,34.1,23.5,5,Medium,429.18,3.03,252.56
+430,Vadodara,Gujarat,22.3072,73.1812,Surat,Gujarat,21.1702,72.8311,108.6,65,14,21,Afternoon,Saturday,11.42,Liters,Diesel,Mahindra Bolero Pik-up,44.5,5.4,0,Medium,892.21,5.87,30.61
+431,Ludhiana,Punjab,30.901,75.8573,Kanpur,Uttar Pradesh,26.4499,80.3319,746.22,75,10,15,Mid-Day,Sunday,301.77,Liters,Diesel,Tata Signa 2823.K (HCV),31.5,22.9,0,High,15353.19,26.87,808.74
+432,Lucknow,Uttar Pradesh,26.8467,80.9462,Thane,Maharashtra,19.2183,72.9781,1318.97,69,28,3,Afternoon,Saturday,115.74,Liters,Diesel,Tata Ace,41.2,21.3,0,Low,633.86,0.77,310.18
+433,Indore,Madhya Pradesh,22.7196,75.8577,Ahmedabad,Gujarat,23.0225,72.5714,306.73,52,27,21,Afternoon,Friday,13.89,Kg,CNG,CNG Three-Wheeler (Cargo),37.9,19.8,0,Low,219.73,1.7,28.47
+434,Agra,Uttar Pradesh,27.1767,78.0081,Ludhiana,Punjab,30.901,75.8573,464.08,67,17,16,Mid-Day,Wednesday,162.87,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),43.7,7.6,10,Medium,5988.95,22.97,436.49
+435,Bangalore,Karnataka,12.9716,77.5946,Agra,Uttar Pradesh,27.1767,78.0081,2128.19,75,13,12,Morning Rush,Wednesday,214.32,Liters,Diesel,Ashok Leyland Dost,32.2,15.2,0,High,394.36,3.97,574.38
+436,Pune,Maharashtra,18.5204,73.8567,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,968.58,53,18,29,Early Morning,Wednesday,47.17,Kg,CNG,CNG Three-Wheeler (Cargo),29.2,17.7,0,Medium,265.94,0.96,96.7
+437,Jaipur,Rajasthan,26.9124,75.7873,Bhopal,Madhya Pradesh,23.2599,77.4126,497.51,83,17,0,Mid-Day,Monday,29.97,Kg,CNG,CNG Three-Wheeler (Cargo),35.0,7.0,0,Very High,341.61,1.38,61.44
+438,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Agra,Uttar Pradesh,27.1767,78.0081,193.41,57,27,16,Afternoon,Tuesday,80.42,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),35.8,18.9,5,High,15049.01,13.32,215.53
+439,Chennai,Tamil Nadu,13.0827,80.2707,Delhi,Delhi,28.6139,77.209,2037.74,60,28,12,Evening Rush,Monday,202.87,Liters,Diesel,Ashok Leyland Dost,30.2,16.8,0,High,342.2,2.92,543.69
+440,Mumbai,Maharashtra,19.076,72.8777,Ahmedabad,Gujarat,23.0225,72.5714,526.84,50,22,28,Afternoon,Monday,168.9,Liters,Diesel,Tata Signa 2823.K (HCV),37.5,12.5,0,Low,8697.07,8.95,452.65
+441,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Ghaziabad,Uttar Pradesh,28.6692,77.4538,62.62,15,63,22,Early Morning,Monday,5.73,Kg,CNG,Tata Ace,43.5,22.2,10,Low,670.51,3.19,11.75
+442,Thane,Maharashtra,19.2183,72.9781,Vadodara,Gujarat,22.3072,73.1812,354.43,70,30,0,Mid-Day,Sunday,128.82,Liters,Diesel,Tata Signa 2823.K (HCV),31.5,19.3,10,Low,15614.64,12.85,345.24
+443,Mumbai,Maharashtra,19.076,72.8777,Bhopal,Madhya Pradesh,23.2599,77.4126,623.18,53,19,28,Early Morning,Tuesday,205.3,Liters,Diesel,Tata Signa 2823.K (HCV),37.3,21.9,15,Low,5976.36,18.5,550.2
+444,Ahmedabad,Gujarat,23.0225,72.5714,Patna,Bihar,25.5941,85.1376,1055.38,63,14,23,Night,Friday,156.11,Liters,Diesel,Tata 407 (LCV),31.0,13.3,5,Medium,2338.76,8.28,418.37
+445,Mumbai,Maharashtra,19.076,72.8777,Patna,Bihar,25.5941,85.1376,1558.23,69,30,1,Evening Rush,Sunday,614.78,Liters,Diesel,Tata Signa 2823.K (HCV),38.6,21.3,0,Very High,7634.79,16.17,1647.61
+446,Mumbai,Maharashtra,19.076,72.8777,Delhi,Delhi,28.6139,77.209,1278.0,50,13,37,Early Morning,Friday,253.88,kWh,Electric,Tata Ace EV,35.9,13.0,0,Medium,522.59,1.75,0.0
+447,Agra,Uttar Pradesh,27.1767,78.0081,Nashik,Maharashtra,20.0084,73.7909,783.72,69,12,19,Afternoon,Wednesday,91.55,kWh,Electric,Electric Three-Wheeler (Cargo),30.2,11.1,10,Medium,120.13,1.39,0.0
+448,Coimbatore,Tamil Nadu,11.0168,76.9558,Indore,Madhya Pradesh,22.7196,75.8577,1212.87,56,28,16,Mid-Day,Saturday,197.47,kWh,Electric,Tata Ace EV,37.4,10.7,0,Low,170.87,1.74,0.0
+449,Vadodara,Gujarat,22.3072,73.1812,Bhopal,Madhya Pradesh,23.2599,77.4126,512.15,84,11,5,Early Morning,Sunday,50.78,Liters,Diesel,Mahindra Bolero Pik-up,33.1,9.9,0,Low,832.58,3.17,136.09
+450,Chennai,Tamil Nadu,13.0827,80.2707,Ahmedabad,Gujarat,23.0225,72.5714,1584.91,66,10,24,Morning Rush,Tuesday,555.1,Liters,Diesel,Tata Signa 2823.K (HCV),36.8,15.5,0,High,5262.35,15.68,1487.67
+451,Mumbai,Maharashtra,19.076,72.8777,Pune,Maharashtra,18.5204,73.8567,149.5,81,19,0,Evening Rush,Monday,18.91,kWh,Electric,Electric Three-Wheeler (Cargo),31.9,11.1,0,Medium,307.36,1.4,0.0
+452,Patna,Bihar,25.5941,85.1376,Agra,Uttar Pradesh,27.1767,78.0081,1005.98,63,11,26,Mid-Day,Monday,78.78,Liters,Petrol,Tata Ace,37.0,12.5,5,Low,296.91,0.91,181.98
+453,Hyderabad,Telangana,17.385,78.4867,Hyderabad,Telangana,17.385,78.4867,10.99,19,81,0,Mid-Day,Saturday,1.75,kWh,Electric,Electric Three-Wheeler (Cargo),39.9,15.6,5,Very High,408.45,1.54,0.0
+454,Jaipur,Rajasthan,26.9124,75.7873,Vadodara,Gujarat,22.3072,73.1812,469.5,75,19,6,Mid-Day,Friday,66.7,Liters,Diesel,Mahindra Bolero Pik-up,33.7,15.8,15,Very High,1248.38,5.01,178.76
+455,Ludhiana,Punjab,30.901,75.8573,Ahmedabad,Gujarat,23.0225,72.5714,734.65,65,15,20,Mid-Day,Friday,39.67,Kg,CNG,CNG Three-Wheeler (Cargo),43.8,23.4,0,Medium,476.1,0.72,81.32
+456,Patna,Bihar,25.5941,85.1376,Kanpur,Uttar Pradesh,26.4499,80.3319,430.5,53,12,35,Evening Rush,Friday,49.46,Liters,Diesel,Tata Ace,28.4,19.1,10,Very High,686.74,3.21,132.55
+457,Mumbai,Maharashtra,19.076,72.8777,Pune,Maharashtra,18.5204,73.8567,133.92,82,15,3,Night,Sunday,11.0,Kg,CNG,Tata Ace,40.1,19.8,0,Low,433.67,1.74,22.55
+458,Bangalore,Karnataka,12.9716,77.5946,Indore,Madhya Pradesh,22.7196,75.8577,1209.87,72,17,11,Early Morning,Tuesday,117.59,Kg,CNG,Ashok Leyland Dost,33.1,18.2,0,Medium,654.34,1.78,241.06
+459,Nagpur,Maharashtra,21.1458,79.0882,Surat,Gujarat,21.1702,72.8311,867.26,66,24,10,Morning Rush,Saturday,141.91,Kg,CNG,Tata 407 (LCV),29.9,21.8,0,Very High,1583.95,4.06,290.92
+460,Kanpur,Uttar Pradesh,26.4499,80.3319,Mumbai,Maharashtra,19.076,72.8777,1122.96,84,16,0,Night,Sunday,87.1,Kg,CNG,Tata Ace,38.1,24.8,5,Low,269.98,3.36,178.55
+461,Jaipur,Rajasthan,26.9124,75.7873,Agra,Uttar Pradesh,27.1767,78.0081,207.24,62,16,22,Night,Wednesday,38.77,kWh,Electric,Tata Ace EV,32.3,16.8,5,Low,494.31,2.96,0.0
+462,Kolkata,West Bengal,22.5726,88.3639,Bhopal,Madhya Pradesh,23.2599,77.4126,1568.14,76,24,0,Night,Wednesday,75.04,Kg,CNG,CNG Three-Wheeler (Cargo),44.9,12.7,0,Low,327.16,1.71,153.83
+463,Guwahati,Assam,26.1445,91.7362,Surat,Gujarat,21.1702,72.8311,2201.43,61,29,10,Morning Rush,Thursday,318.64,kWh,Electric,Electric Three-Wheeler (Cargo),43.4,22.8,0,High,387.97,0.58,0.0
+464,Kanpur,Uttar Pradesh,26.4499,80.3319,Bangalore,Karnataka,12.9716,77.5946,1885.93,84,11,5,Night,Thursday,202.99,Liters,Diesel,Mahindra Bolero Pik-up,38.6,22.9,5,Low,1331.39,2.01,544.01
+465,Jaipur,Rajasthan,26.9124,75.7873,Nagpur,Maharashtra,21.1458,79.0882,917.82,76,10,14,Afternoon,Monday,121.87,Kg,CNG,Ashok Leyland Dost,42.7,9.4,10,Very High,1204.92,1.16,249.83
+466,Thane,Maharashtra,19.2183,72.9781,Visakhapatnam,Andhra Pradesh,17.6868,83.2185,1380.4,55,23,22,Early Morning,Saturday,150.41,Liters,Diesel,Mahindra Bolero Pik-up,39.6,19.0,0,Low,1409.62,3.78,403.1
+467,Nagpur,Maharashtra,21.1458,79.0882,Ahmedabad,Gujarat,23.0225,72.5714,839.22,73,15,12,Mid-Day,Friday,98.49,Liters,Diesel,Mahindra Bolero Pik-up,28.7,22.7,0,Very High,522.55,3.6,263.95
+468,Vadodara,Gujarat,22.3072,73.1812,Bhopal,Madhya Pradesh,23.2599,77.4126,506.0,63,21,16,Early Morning,Tuesday,181.45,Liters,Diesel,Tata Signa 2823.K (HCV),28.0,10.9,0,Medium,13181.02,27.26,486.29
+469,Bhopal,Madhya Pradesh,23.2599,77.4126,Kolkata,West Bengal,22.5726,88.3639,1181.76,74,13,13,Morning Rush,Wednesday,128.96,Liters,Petrol,Tata Ace,38.4,24.6,0,Very High,617.86,3.39,297.9
+470,Chennai,Tamil Nadu,13.0827,80.2707,Vadodara,Gujarat,22.3072,73.1812,1508.06,71,19,10,Afternoon,Thursday,390.47,Liters,Diesel,BharatBenz 1617R (MCV),41.1,13.9,0,Very High,4523.05,10.08,1046.46
+471,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Kanpur,Uttar Pradesh,26.4499,80.3319,422.87,62,28,10,Early Morning,Thursday,155.45,Liters,Diesel,Tata Signa 2823.K (HCV),33.6,7.1,0,Medium,15023.91,18.94,416.61
+472,Bhopal,Madhya Pradesh,23.2599,77.4126,Nashik,Maharashtra,20.0084,73.7909,644.72,52,23,25,Early Morning,Tuesday,70.22,Liters,Diesel,Eicher Pro 2049 (LCV),30.1,8.8,0,Low,1039.63,6.04,188.19
+473,Delhi,Delhi,28.6139,77.209,Nashik,Maharashtra,20.0084,73.7909,1071.65,67,16,17,Early Morning,Thursday,117.38,Liters,Diesel,Mahindra Bolero Pik-up,40.7,22.2,0,Low,1442.92,1.55,314.58
+474,Hyderabad,Telangana,17.385,78.4867,Coimbatore,Tamil Nadu,11.0168,76.9558,907.63,53,17,30,Evening Rush,Sunday,349.77,Liters,Diesel,Tata Signa 2823.K (HCV),41.5,15.9,0,Very High,6062.48,27.2,937.38
+475,Vadodara,Gujarat,22.3072,73.1812,Coimbatore,Tamil Nadu,11.0168,76.9558,1019.26,84,16,0,Morning Rush,Sunday,48.37,Kg,CNG,CNG Three-Wheeler (Cargo),39.6,6.7,10,Medium,161.79,2.16,99.16
+476,Ludhiana,Punjab,30.901,75.8573,Ahmedabad,Gujarat,23.0225,72.5714,925.64,67,23,10,Mid-Day,Thursday,129.17,Kg,CNG,Tata 407 (LCV),36.0,20.3,0,High,859.25,2.6,264.8
+477,Lucknow,Uttar Pradesh,26.8467,80.9462,Mumbai,Maharashtra,19.076,72.8777,1087.19,62,23,15,Mid-Day,Tuesday,62.79,Kg,CNG,CNG Three-Wheeler (Cargo),33.2,8.1,0,High,425.79,0.51,128.72
+478,Kolkata,West Bengal,22.5726,88.3639,Ghaziabad,Uttar Pradesh,28.6692,77.4538,1343.93,60,24,16,Mid-Day,Thursday,255.5,kWh,Electric,Tata Ace EV,44.7,6.4,10,Low,461.06,2.54,0.0
+479,Kolkata,West Bengal,22.5726,88.3639,Delhi,Delhi,28.6139,77.209,1163.46,80,20,0,Morning Rush,Sunday,517.14,Liters,Diesel,Tata Signa 2823.K (HCV),41.5,23.3,15,High,17405.07,12.85,1385.94
+480,Patna,Bihar,25.5941,85.1376,Guwahati,Assam,26.1445,91.7362,899.44,83,17,0,Early Morning,Monday,326.99,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),37.7,14.1,5,Low,15534.35,30.69,876.33
+481,Ludhiana,Punjab,30.901,75.8573,Lucknow,Uttar Pradesh,26.8467,80.9462,657.06,61,19,20,Afternoon,Wednesday,281.73,Liters,Diesel,Tata Signa 2823.K (HCV),33.2,13.2,15,High,14668.68,7.9,755.04
+482,Coimbatore,Tamil Nadu,11.0168,76.9558,Delhi,Delhi,28.6139,77.209,1987.66,53,13,34,Morning Rush,Thursday,201.13,Liters,Diesel,Ashok Leyland Dost,41.6,23.1,0,High,416.14,2.12,539.03
+483,Surat,Gujarat,21.1702,72.8311,Coimbatore,Tamil Nadu,11.0168,76.9558,1555.15,84,13,3,Afternoon,Tuesday,577.01,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),28.2,7.5,5,Low,17362.86,13.21,1546.39
+484,Kolkata,West Bengal,22.5726,88.3639,Kanpur,Uttar Pradesh,26.4499,80.3319,786.91,54,30,16,Afternoon,Monday,151.7,Liters,Diesel,BharatBenz 1617R (MCV),42.4,13.8,5,Low,2130.34,7.02,406.56
+485,Kolkata,West Bengal,22.5726,88.3639,Lucknow,Uttar Pradesh,26.8467,80.9462,1258.36,56,24,20,Morning Rush,Tuesday,292.84,Liters,Diesel,BharatBenz 1617R (MCV),34.7,16.3,10,High,2744.41,12.56,784.81
+486,Bangalore,Karnataka,12.9716,77.5946,Delhi,Delhi,28.6139,77.209,1775.49,67,13,20,Evening Rush,Friday,111.51,Kg,CNG,CNG Three-Wheeler (Cargo),32.7,21.2,0,Very High,426.86,1.01,228.6
+487,Kolkata,West Bengal,22.5726,88.3639,Bangalore,Karnataka,12.9716,77.5946,1229.51,76,22,2,Afternoon,Wednesday,255.73,kWh,Electric,Tata Ace EV,41.3,10.7,5,High,411.49,0.65,0.0
+488,Mumbai,Maharashtra,19.076,72.8777,Kanpur,Uttar Pradesh,26.4499,80.3319,1290.82,84,16,0,Evening Rush,Monday,199.82,kWh,Electric,Electric Three-Wheeler (Cargo),32.1,21.0,15,Very High,236.05,0.68,0.0
+489,Nagpur,Maharashtra,21.1458,79.0882,Mumbai,Maharashtra,19.076,72.8777,562.77,59,20,21,Night,Wednesday,120.76,Liters,Diesel,BharatBenz 1617R (MCV),34.4,18.1,15,Low,3424.75,17.48,323.64
+490,Mumbai,Maharashtra,19.076,72.8777,Guwahati,Assam,26.1445,91.7362,2048.51,73,23,4,Morning Rush,Wednesday,287.92,Liters,Diesel,Eicher Pro 2049 (LCV),30.2,8.0,5,Very High,1451.58,8.89,771.63
+491,Coimbatore,Tamil Nadu,11.0168,76.9558,Agra,Uttar Pradesh,27.1767,78.0081,2238.77,69,23,8,Evening Rush,Sunday,1063.13,Liters,Diesel,Ashok Leyland Captain 3520 (HCV),37.0,5.3,15,High,21002.57,11.0,2849.19
+492,Pune,Maharashtra,18.5204,73.8567,Lucknow,Uttar Pradesh,26.8467,80.9462,1505.67,51,22,27,Night,Tuesday,326.54,Liters,Diesel,BharatBenz 1617R (MCV),32.8,7.2,0,Low,6145.4,4.91,875.13
+493,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Pune,Maharashtra,18.5204,73.8567,1261.96,51,23,26,Early Morning,Monday,128.58,Liters,Diesel,Mahindra Bolero Pik-up,34.0,13.8,5,Medium,708.03,3.68,344.59
+494,Thane,Maharashtra,19.2183,72.9781,Indore,Madhya Pradesh,22.7196,75.8577,669.61,53,22,25,Night,Sunday,64.35,Liters,Diesel,Mahindra Bolero Pik-up,36.9,21.3,0,Low,653.01,5.09,172.46
+495,Lucknow,Uttar Pradesh,26.8467,80.9462,Jaipur,Rajasthan,26.9124,75.7873,532.17,50,19,31,Mid-Day,Saturday,48.71,Kg,CNG,Tata Ace,29.1,17.8,0,High,342.34,2.13,99.86
+496,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Thane,Maharashtra,19.2183,72.9781,1356.59,60,30,10,Early Morning,Friday,150.42,Kg,CNG,Ashok Leyland Dost,43.8,14.5,15,Low,1230.56,4.05,308.36
+497,Agra,Uttar Pradesh,27.1767,78.0081,Bangalore,Karnataka,12.9716,77.5946,1244.77,64,21,15,Early Morning,Thursday,139.04,Liters,Diesel,Mahindra Bolero Pik-up,42.9,15.1,0,Medium,1257.78,1.6,372.63
+498,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Patna,Bihar,25.5941,85.1376,842.37,77,19,4,Early Morning,Friday,42.19,Kg,CNG,CNG Three-Wheeler (Cargo),34.2,12.6,10,Medium,262.72,1.22,86.49
+499,Kolkata,West Bengal,22.5726,88.3639,Agra,Uttar Pradesh,27.1767,78.0081,1156.88,68,13,19,Night,Sunday,170.43,Liters,Diesel,Tata 407 (LCV),39.6,8.3,10,Medium,1985.86,3.61,456.75
+500,Ghaziabad,Uttar Pradesh,28.6692,77.4538,Nagpur,Maharashtra,21.1458,79.0882,990.89,53,17,30,Morning Rush,Monday,216.05,kWh,Electric,Tata Ace EV,34.4,6.1,5,Very High,325.74,0.82,0.0
